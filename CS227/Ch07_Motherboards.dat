@@ -36,7 +36,7 @@ Components on Motherboard
 Chipset Evolution
 	Northbridge 									[[img http://media.bestofmicro.com/K/S/116092/original/P35_Block_Diagram.jpg]]
 		Originally was mostly a memory controller	[[img http://techreport.com/r.x/core-i7/system-block-diagram.gif]]
-		Then high speed I/O was added to it			[[img http://zapp5.staticworld.net/images/article/2011/11/x79_blockdiagram-5236050.jpg]]
+		Then high speed I/O was added to it			[[img images/x99-chipset-block-diagram.jpg]]
 		Then memory controller was moved to CPU		[[img http://techreport.com/r.x/llano-mobos/block.jpg]]
 	Southbridge
 		Low speed I/O hub
