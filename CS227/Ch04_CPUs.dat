@@ -17,7 +17,7 @@ Overview
 		Central Processing Unit
 	CPUs do the following
 		move data
-		math (add, subtract, mulitple, divide)
+		math (add, subtract, multiply, divide)
 	Data is moved via Busses
 		Busses are a group of wires
 			Typically 16, 32, or 64 wires
@@ -29,7 +29,7 @@ CPU Components
 		ALU (Arithmetic Logic Unit)
 		FPU (Floating Point Unit)
 		Address/Data Bus	
-		Cache (L1, L2, L3) [[img  http://http://tutorial.programming4.us/image/1207/CPU%20architecture.jpg]]
+		Cache (L1, L2, L3) [[img  http://tutorial.programming4.us/image/1207/CPU%20architecture.jpg]]
 	Modern CPUs often include 2-8 (or more!) separate "cores", with each core being almost a "separate" CPU and consisting of all the above items (although L2 or L3 cache may be shared) 
 
 -----------------------------------
