@@ -25,10 +25,10 @@ Overview
 ------------------------------------
 CPU Components
 	Core Components
-		Registers	[[img images/L1PentiumArchitecture.gif]]
-		ALU (Arithmetic Logic Unit)	[[img images/L2_DualCore.jpg]]
-		FPU (Floating Point Unit)	[[img images/L3CPU_architecture.jpg]]
-		Address/Data Bus	[[img images/L3core_i5750_wafer.jpg]]
+		Registers [[img images/L1PentiumArchitecture.gif]]
+		ALU (Arithmetic Logic Unit) [[img images/L2_DualCore.jpg]]
+		FPU (Floating Point Unit) [[img images/L3CPU_architecture.jpg]]
+		Address/Data Bus [[img images/L3core_i5750_wafer.jpg]]
 		Cache (L1, L2, L3) 
 	Modern CPUs often include 2-8 (or more!) separate "cores", with each core being almost a "separate" CPU and consisting of all the above items (although L2 or L3 cache may be shared) 
 
