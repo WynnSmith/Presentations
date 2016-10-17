@@ -47,10 +47,10 @@ Speeds
 	1 GHz - 1 billion cycles per second
 -----------------------------------
 Other Items Affecting Performance
-	Cache Size - L1, L2, L3 [[img  images/L1PentiumArchitecture.gif]]
-	Number of Cores	[[img  images/L2_DualCore.jpg]]
-	Component Integration	[[img  images/L3CPU_architecture.jpg]]
-		Memory Controller	[[img  images/L3core_i5750_wafer.jpg]]
+	Cache Size - L1, L2, L3 [[img  http://www.ni.com/cms/images/devzone/tut/image2840731961173341797.png]]
+	Number of Cores	
+	Component Integration	
+		Memory Controller	
 		Graphics Processing Unit
 -----------------------------------
 CPU Sockets
