@@ -35,7 +35,7 @@ CPU Components
 -----------------------------------
 Clock Speed
 	The CPU executes instructions according to a clock
-	The clock signal is by a quartz osciallator on the MB [[img http://common.ziffdavisinternet.com/encyclopedia_images/CLOCK.GIF]]
+	The clock signal is by a quartz oscillator on the MB [[img http://common.ziffdavisinternet.com/encyclopedia_images/CLOCK.GIF]]
 	This signal is then increased to the CPU's maximum speed via a multiplier
 		This allows a Motherboard to support CPUs of various speeds
 	The multipiler is set via factory/CMOS/Jumpers
@@ -96,6 +96,7 @@ AMD Desktop CPUs
 Other CPUs
 	Mobile (Only) [[img http://www.blogcdn.com/www.engadget.com/media/2012/02/intel-rosepoint.jpg]]
 		Atom
+		Core M
 		Mobile versions of many of the desktop chips.  They generally run slower/cooler.
 	Server [[img http://starmicroinc.net/images/xeon.jpg]]
 		Intel Xeon/Itanium
