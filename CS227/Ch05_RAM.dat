@@ -99,11 +99,11 @@ Identifying Modules
 		
 --------------------------------------
 RIMMs
-	Rambus In-line memory module [[img http://www.oempcworld.com/Merchant2/graphics/00000001/184pin_-_16bit.gif]]
+	Rambus In-line memory module [[img images/rimm.jpg]]
 	Used for short time with early P4s
 	Narrow bus but high speeds
 	Two notches near middle
-	Empty slots needed C-RIMMs
+	Empty slots needed C-RIMMs  [[img images/crimm-5.gif]]
 	Expensive
 	Now obsolete
 --------------------------------------
