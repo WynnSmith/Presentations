@@ -9,7 +9,7 @@ Ch 7 - RAM
 -----------------------------------
 Types
 	SRAM
-		Static RAM  [[img images/SRAM_Transistor_circuit.svg]]
+		Static RAM  [[img images/SRAM_Transistor_circuit.png]]
 		Fast, but expensive
 		used for processor Cache (on CPU)
 	SDRAM
