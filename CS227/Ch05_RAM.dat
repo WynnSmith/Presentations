@@ -9,11 +9,11 @@ Ch 7 - RAM
 -----------------------------------
 Types
 	SRAM
-		Static RAM
+		Static RAM  [[img images/SRAM_Transistor_circuit.svg]]
 		Fast, but expensive
 		used for processor Cache (on CPU)
 	SDRAM
-		Synchronous Dynamic RAM
+		Synchronous Dynamic RAM  [[img images/dram_transistor_circuit.png]]
 		Used for system Memory
 
 -----------------------------------
