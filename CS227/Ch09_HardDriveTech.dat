@@ -1,5 +1,5 @@
 ------------------------------------------
-Ch 11 - Hard Drive Technologies
+Ch 9 - Hard Drive Technologies
 	Overview 		[[img http://images.wisegeek.com/hard-drive.jpg]]
 	Drive Basics
 		Magnetic Platter Drives
@@ -14,13 +14,21 @@ Ch 11 - Hard Drive Technologies
 ------------------------------------------
 Overview
 	Storage Mechanism [[img images/Drives.jpg]]
-		Traditional HDD - Magnetic Platters 
-		Solid State Drive - Flash memory
-	Bus (data connnection) 
-		IDE (not sometimes called Parallel ATA)
-		Serial ATA
-		SCSI (typically only on Servers)
-		Fiber Channel (typically only on Servers)
+		Traditional Hard Disk Drive, HDD - Magnetic Platters 
+		Solid State Drive, SSD - Flash memory
+	Bus (data connnection or interface)
+		HDD
+			IDE (sometimes called Parallel ATA, PATA)
+			Serial ATA  (SATA)
+			eSATA
+			SCSI (typically only on Servers)
+			Fiber Channel (typically only on Servers)
+		SDD
+			IDE (sometimes called Parallel ATA, PATA)
+			Serial ATA  (SATA)
+			USB
+			mSATA
+			PCIe
 ------------------------------------------
 Magnetic Platter Drives
 	Drives Geometry consists of [[img http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Cylinder_Head_Sector.svg/360px-Cylinder_Head_Sector.svg.png]]
