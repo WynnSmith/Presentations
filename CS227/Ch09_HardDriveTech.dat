@@ -154,7 +154,7 @@ RAID
 	RAID 5 - Striping with parity 	[[img images/raid5.png]]
 		Better Performance, Reliability, Economy
 		Requires 3+ drives
-	RAID 6 - Striping with extra parity
+	RAID 6 - Striping with extra parity [[img images/raid6.png]]
 		Enhanced Reliability (allows 2 drive failure)
 		Good Performance, Economy
 		Requires 4+ drives
