@@ -127,7 +127,7 @@ AHCI
 		RAID - Redundant Array of Inexpensive Disks
 	AHCI 
 		is configured in BIOS
-		supported in Vista/7
+		supported in Vista/7/8/10
 		necessary if hot-swappablility is to be implemented
 
 -------------------------------------------
@@ -141,20 +141,37 @@ SCSI (scuzzy)
 	SAS - Serial Attached SCSI
 		SCSI based drive commands
 		Hot-swappable
-		No cable, plugs into backplane
+		Normally plugs into backplane, no cables
 -------------------------------------------
 RAID
 	Redundant Array of Inexpensive Disks [[img images/raid0.png]]
 	RAID 0 - Striping 
+		Better Performance
 		Requires 2+ drives
 	RAID 1 - Mirroring/Duplexing 	[[img images/raid1.gif]]
+		Better Reliability
 		Requires 2 drives
 	RAID 5 - Striping with parity 	[[img images/raid5.png]]
+		Better Performance, Reliability, Economy
 		Requires 3+ drives
 	RAID 6 - Striping with extra parity
-		Requires 5+ drives
+		Enhanced Reliability (allows 2 drive failure)
+		Good Performance, Economy
+		Requires 4+ drives
 	RAID 10 (1+0) Striping and mirroring
+		Performance + Reliability
+	RAID 50 (5+0) Striping and RAID 5
+		Performance + Reliability
+	JBOD - Just a bunch of disks
+	Hot Spare - Self healing
 
+--------------------------------------------
+Hot Swap
+	invisible to OS
+	backplane
+	controller
+	drive
+	danger of swapping wrong disk
 --------------------------------------------
 Summary
 	Overview
