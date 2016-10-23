@@ -146,10 +146,10 @@ SCSI (scuzzy)
 RAID
 	Redundant Array of Inexpensive Disks [[img images/raid0.png]]
 	RAID 0 - Striping 
-		Better Performance
+		Better Performance, worse reliability
 		Requires 2+ drives
 	RAID 1 - Mirroring/Duplexing 	[[img images/raid1.gif]]
-		Better Reliability
+		Better Reliability, worse economics
 		Requires 2 drives
 	RAID 5 - Striping with parity 	[[img images/raid5.png]]
 		Better Performance, Reliability, Economy
