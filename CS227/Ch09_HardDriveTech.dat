@@ -10,6 +10,7 @@ Ch 9 - Hard Drive Technologies
 		Parallel ATA
 		Serial ATA
 		SCSI
+		A variety of Solid State interfaces
 	RAID
 ------------------------------------------
 Overview
@@ -27,12 +28,12 @@ Overview
 			USB
 		SDD
 			IDE (PATA - Parallel ATA)
-			SATA (Serial ATA)
+			SATA (Serial ATA, also eSATA variant)
 			USB
-			mSATA, then M.2
-			U.2, SFF-8639
-			PCIe 
-			NVMe (replaces U.2, M.2, PCIe)
+			mSATA (mini-SATA)
+			M.2 (replaces mSATA, uses PCIe or SATA)
+			U.2, (was SFF-8639, uses PCIe 3.0 x4, better thermal)
+			NVMe (replaces U.2, M.2.  Skips over disk I/O)
 ------------------------------------------
 Magnetic Platter Drives
 	Drives Geometry consists of [[img http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Cylinder_Head_Sector.svg/360px-Cylinder_Head_Sector.svg.png]]
