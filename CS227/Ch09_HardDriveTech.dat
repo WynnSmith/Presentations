@@ -106,7 +106,7 @@ SATA overview
 		SATA III (revision 3.x) - 6 Gb/s (600 MB/s) 
 		SATA 3.2 - 16 Gb/s (2 GB/s)
 		Cable Length - 1 meter
-		eSATA - external SATA, 2 meter cable
+		eSATA - external SATA, 2 meter shielded cable
 	[[img images/SAS&SATA.jpg]]
 	[[img images/SATA_SAS_SFF-8639.png]]
 -------------------------------------------
@@ -138,9 +138,9 @@ Interfaces/Busses
 			USB
 			SATAe (SATA 3.2, PCIe lanes on SATA connectors)
 			mSATA (mini-SATA)
-			M.2 (replaces mSATA, uses PCIe or SATA)
+			M.2 (replaces mSATA, uses PCIe lanes or SATA)
 			U.2, (was SFF-8639, uses PCIe 3.0 x4, better thermal)
-			NVMe (replaces U.2, M.2.  Skips over disk I/O)
+			NVMe (replaces U.2, M.2.  uses PCIe lanes)
 ---------------------------------------------
 AHCI
 	BIOS can support SATA drives typically in three modes
@@ -155,24 +155,18 @@ AHCI
 -------------------------------------------
 RAID
 	Redundant Array of Inexpensive Disks [[img images/raid0.png]]
-	RAID 0 - Striping 
-		Better Performance, worse reliability
+	RAID 0 - Striping - Better Performance, worse reliability
 		Requires 2+ drives
-	RAID 1 - Mirroring/Duplexing 	[[img images/raid1.gif]]
-		Better Reliability, worse economics
+	RAID 1 - Mirroring/Duplexing - Better Reliability, worse economics [[img images/raid1.gif]]
 		Requires 2 drives
-	RAID 5 - Striping with parity 	[[img images/raid5.png]]
-		Better Performance, Reliability, Economy
+	RAID 5 - Striping with parity - Better Performance, Reliability, Economy [[img images/raid5.png]]
 		Requires 3+ drives
 	RAID 6 - Striping with extra parity [[img images/RAID6.png]]
-		Enhanced Reliability (allows 2 drive failure)
-		Good Performance, Economy
+		Enhanced Reliability (allows 2 drive failure) - Good Performance, Economy
 		Requires 4+ drives
-	RAID 10 (1+0) Striping and mirroring
-		Performance + Reliability
-	RAID 50 (5+0) Striping and RAID 5
-		Performance + Reliability
-	JBOD - Just a bunch of disks
+	RAID 10 (1+0) Striping and mirroring - Performance + Reliability
+	RAID 50 (5+0) Striping and RAID 5 - Performance + Reliability
+	JBOD - Just a Bunch Of Disks
 	Hot Spare - Self healing
 	Hardware vs Software RAID
 
