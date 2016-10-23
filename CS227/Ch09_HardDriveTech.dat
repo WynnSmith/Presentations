@@ -57,6 +57,7 @@ Common Terms
 	PATA - Parallel ATA
 		This term came about when SATA was invented
 		The terms PATA, IDE, and EIDE, are often times used interchangeably
+	Redundancy - Duplicated hardware or data to improve reliability
 -------------------------------------------
 ATA History / Versions
 	ATA-1 (IDE)
@@ -163,13 +164,22 @@ RAID
 		Requires 3+ drives
 	RAID 6 - Striping with extra parity [[img images/RAID6.png]]
 		Enhanced Reliability (allows 2 drive failure) - Good Performance, Economy
-		Requires 4+ drives
-	RAID 10 (1+0) Striping and mirroring - Performance + Reliability
-	RAID 50 (5+0) Striping and RAID 5 - Performance + Reliability
-	JBOD - Just a Bunch Of Disks
+		Requires 4+ drives (book says 5+)
+	RAID 10 (1+0) Striping of mirrored drives - Performance + Reliability + Expandability
+	RAID 0+1 Mirroring of striped drives - Performance + Reliability
+	RAID 50 (5+0) Striping of RAID 5 - Performance + Reliability
+--------------------------------------------
+RAID Misc
+	Duplexing - RAID 1 with double hardware
+		2 Drives
+		1 cable and 1 disk controller per drive
+		Improved performance and redundancy
+	JBOD - Just a Bunch Of Disks (many disk ports)
 	Hot Spare - Self healing
-	Hardware vs Software RAID
-
+	RAID options - Hardware vs Software vs BIOS 
+		Hardware RAID - Costly, fast, more RAID types, more interfaces, live mod of RAID type, hot spare, transferable.  Replacement risk.
+		Software RAID - Cheap.  Less fast.  Less risk.
+		BIOS RAID - Cheap.  May be less fast.  Not transferable.
 --------------------------------------------
 Hot Swap
 	invisible to OS
