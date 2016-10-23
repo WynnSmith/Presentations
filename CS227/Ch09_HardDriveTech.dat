@@ -19,7 +19,7 @@ Overview
 		Solid State Drive, SSD - Flash memory
 	Bus (data connnection or interface)
 		HDD
-			IDE (PATA - Parallel ATA)
+			IDE (EIDE, ATAPI, PATA - Parallel ATA)
 			SATA (Serial ATA)
 			eSATA
 			SCSI (typically in Servers)
@@ -54,11 +54,14 @@ Solid State Drives
 	Noiseless
 	Much Faster than traditional HDDs
 	More Expensive than traditional HDDs
+	Potentially Shorter Life (10K to 100K erase/write cycles)
 	Types of NAND
 		MLC - Multi-level cell
 			Slower, but less expensive
+			Shorter life-span
 		SLC - Single-level cell
 			Faster, but more Expensive
+			Longer life-span
 	Lifespan is determined by maximum# read operations per cell
 		When it reaches EOL, you'll still be able to read it
 -------------------------------------------
@@ -132,6 +135,10 @@ SCSI (scuzzy)
 	Devices are identified by a SCSI ID, oftentimes set using dip switches
 	Ends of the bus need Termination
 	There are numerous versions, types of cables, connectors, and terminators.
+	SAS - Serial Attached SCSI
+		SCSI based drive commands
+		Hot-swappable
+		No cable, plugs into backplane
 -------------------------------------------
 RAID
 	Redundant Array of Inexpensive Disks [[img images/raid0.png]]
