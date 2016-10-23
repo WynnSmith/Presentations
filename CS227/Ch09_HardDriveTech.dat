@@ -18,17 +18,21 @@ Overview
 		Solid State Drive, SSD - Flash memory
 	Bus (data connnection or interface)
 		HDD
-			IDE (sometimes called Parallel ATA, PATA)
-			Serial ATA  (SATA)
+			IDE (PATA - Parallel ATA)
+			SATA (Serial ATA)
 			eSATA
-			SCSI (typically only on Servers)
+			SCSI (typically in Servers)
+			Serial Attached SCSI, (SAS)
 			Fiber Channel (typically only on Servers)
-		SDD
-			IDE (sometimes called Parallel ATA, PATA)
-			Serial ATA  (SATA)
 			USB
-			mSATA
-			PCIe
+		SDD
+			IDE (PATA - Parallel ATA)
+			SATA (Serial ATA)
+			USB
+			mSATA, then M.2
+			U.2, SFF-8639
+			PCIe 
+			NVMe (replaces U.2, M.2, PCIe)
 ------------------------------------------
 Magnetic Platter Drives
 	Drives Geometry consists of [[img http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Cylinder_Head_Sector.svg/360px-Cylinder_Head_Sector.svg.png]]
