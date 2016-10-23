@@ -138,10 +138,10 @@ Interfaces/Busses
 			SATA (Serial ATA)
 			USB
 			SATAe (SATA 3.2, PCIe lanes on SATA connectors)
-			mSATA (mini-SATA)
-			M.2 (replaces mSATA, uses PCIe lanes or SATA)
+			mSATA (mini-SATA, PCIe lanes on special slot)
+			M.2 (replaces mSATA, uses PCIe lanes on special slot)
 			U.2, (was SFF-8639, uses PCIe 3.0 x4, better thermal)
-			NVMe (replaces U.2, M.2.  uses PCIe lanes)
+			NVMe (replaces U.2, M.2. uses PCIe lanes)
 ---------------------------------------------
 AHCI
 	BIOS can support SATA drives typically in three modes
