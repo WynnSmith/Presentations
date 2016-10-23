@@ -117,6 +117,8 @@ SATA overview
 		SATA II (revision 2.x) - 3 Gb/s (300 MB/s)
 		SATA III (revision 3.x) - 6 Gb/s (600 MB/s) 
 		eSATA - external SATA
+	[[img images/SAS&SATA.jpg]]
+	[[img images/SATA_SAS_SFF-8639.png]]
 ---------------------------------------------
 AHCI
 	BIOS can support SATA drives typically in three modes
