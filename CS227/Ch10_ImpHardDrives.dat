@@ -12,6 +12,18 @@ Ch 12 - Implementing Hard Drives
 	Disk Partitioning and Managment tools
 	Disk Maintenance
 ------------------------------------------
+Vocabulary
+	Physical Partitions of the Disk
+		Partitions - MBR & GPT
+		Physical Volumes - Dynamic
+	Logical Disks, as seen by OS
+		Partitions
+		Logical Volumes - MBR Extended, Dynamic
+		Combined Partitions - Span, Stripe, RAID
+	Partition Types
+		Basic - MBR & GPT
+		Dynamic - Dynamic
+------------------------------------------
 Partitioning Basics
 	A Partition is a subdivision of a disk that can be used to store files (via a file system)
 	Disks can have multiple partitions
