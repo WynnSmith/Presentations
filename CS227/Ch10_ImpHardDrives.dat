@@ -76,7 +76,7 @@ GPT Disks
 	Similar to MBR but limitations have been fixed
 		Lots of Partitions (128 on MS systems)
 		Maximum Partition size in Zettabytes!
-			1 Zettabyte is 1 million terrabytes!
+			1 Zettabyte is 1 million terabytes!
 		Eliminates LBA->CHS trickery
 	Utilizes GPT Header in place of MBR sector
 		Has a copy of this header at the beginning and ending of the disk for redundancy.
@@ -85,7 +85,7 @@ Other Partition Types
 	Hidden partition - A partition that is hidden from the OS
 		Some Computer manufactures put one of these on the disk to contain a backup copy of the OS.
 			Commonly referred to as a "factory recovery partition"
-	Swap Partition - a partition used by Linux in place of a boot file
+	Swap Partition - a partition used by Linux in place of a page file
 --------------------------------------------
 File System Basics
 	Partitions/Volumes need file systems to manage the disk space
@@ -103,6 +103,7 @@ Windows File Systems
 		Versions: FAT16 & FAT32
 		FAT32 supports partitions up to 2 TB
 			but Windows can only format FAT partitions up to 32GB
+			Supports File Sizes up to 4GB
 	NTFS
 		Introduced with NT, and supported by all versions of NT (NT/2K/XP/Vista/7/10)
 		Very similar to UFS (Unix File System)
