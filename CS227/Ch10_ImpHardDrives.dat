@@ -15,12 +15,12 @@ Ch 12 - Implementing Hard Drives
 Vocabulary
 	Physical Partitions of the Disk
 		Partitions - MBR & GPT
-		Physical Volumes - Dynamic
-	Logical Disks, as seen by OS
+		Volumes (Physical) - Dynamic
+	Logical Disks, as seen by OS/User
 		Partitions
-		Logical Volumes - MBR Extended, Dynamic
+		Volumes (Logical) - MBR Extended, Dynamic
 		Combined Partitions - Span, Stripe, RAID
-	Partition Types
+	Microsoft Disk Types
 		Basic - MBR & GPT
 		Dynamic - Dynamic
 ------------------------------------------
