@@ -69,15 +69,16 @@ Keyboards
 	Disconnect before cleaning, make sure it's dry before reconnecting
 
 ------------------------------------------
-Mice
+Mice & Pointing Devices
 	Connect via PS/2 or USB			[[img http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/3-Tastenmaus_Microsoft.jpg/233px-3-Tastenmaus_Microsoft.jpg]]
 	Configuration can be done via Mouse Control Panel Applet
 	Two types						[[img http://www.logitech.com/assets/32954/3/logitech-wireless-trackball-m570.png]]
-		Ball (obsolete)
+		Ball (obsolete, collects dirt)
 		Optical
-	Ball mice collect dirt on rollers.  
-	Ball can be removed and rollers cleaned with almost any small, non-metalic, scraper
-	Mouse substitutes: trackball, touchpad, etc..
+	Mouse substitutes: 		[[img images/Wacom_Touch.jpg]]
+		Trackball 
+		Touchpad
+		Digitizing Tablet
 ------------------------------------------
 Scanners
 	Connect via PS/2 [[img images/scanner.jpg]]
@@ -128,13 +129,11 @@ Other devices
 	Biometric Devices 	[[img http://www.payroll-software.in/images/Device.png]]
 		Used for security
 		Typically fingerprint readers
-		Not yet reliable
 	Bar Code readers	[[img http://www.tutorialspoint.com/computer_fundamentals/images/barcode_reader.jpg]]
 		Used to read UPCs on products
 	Touch Screens
 		Monitors with touch pad overlay which is used in place of a mouse
 		Used in info kiosks, POS systems, tablet PCs
-		Historically were relatively expensive, but price as has come down as production increased (due to use in tablets)
 	[[KVM Switch!http://en.wikipedia.org/wiki/KVM_switch]]
 		Allows multiple systems to share one Keyboard, mouse, and screen 
 --------------------------------------------
