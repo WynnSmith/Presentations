@@ -16,7 +16,7 @@ Digitizing Sound Waves
 	Sound waves properties [[img http://content.answcdn.com/main/content/img/CDE/WAVELEN.GIF]]
 		Amplitude
 		Frequency
-	To digitize, wave is "sampled" at periodic intervals [[img CS227/Images/DigitisingWave.jpg]]
+	To digitize, wave is "sampled" at periodic intervals [[img images/audio_sampling.gif]]
 		Sampling rate is measured in kHz
 		Bit Depth is number of bits per sample 
 	Tracks
