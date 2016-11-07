@@ -78,7 +78,7 @@ Mice & Pointing Devices
 	Mouse substitutes: 		[[img images/Wacom_Touch.jpg]]
 		Trackball 
 		Touchpad
-		Digitizing Tablet
+		Digitizing Tablet (with touch)
 ------------------------------------------
 Scanners
 	Connect via PS/2 [[img images/scanner.jpg]]
@@ -127,15 +127,19 @@ COM port settings
 -------------------------------------------
 Other devices
 	Biometric Devices 	[[img http://www.payroll-software.in/images/Device.png]]
+		Used for security (fingerprints, retina, etc.)
+	Smart Card readers
 		Used for security
-		Typically fingerprint readers
 	Bar Code readers	[[img http://www.tutorialspoint.com/computer_fundamentals/images/barcode_reader.jpg]]
 		Used to read UPCs on products
 	Touch Screens
-		Monitors with touch pad overlay which is used in place of a mouse
+		Monitors with touch (like a giant smart phone)
 		Used in info kiosks, POS systems, tablet PCs
 	[[KVM Switch!http://en.wikipedia.org/wiki/KVM_switch]]
 		Allows multiple systems to share one Keyboard, mouse, and screen 
+	Game Controllers
+	Digitizing Tablet
+		Uses pen or puck
 --------------------------------------------
 Summary
 	USB
