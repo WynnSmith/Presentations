@@ -29,9 +29,9 @@ USB - Universal Serial Bus
 -----------------------------------------------
 USB Specs
 	Max cable length: 		[[img images/usb-cable.jpg]]
-		5 meters for 1.1 and 2.0
+		5 meters for 1.1 and 2.0  [[img images/type_c.jpg]]
 		3 meters for 3.0
-	Max repeaters: 5 		[[img http://www.c-lab.org/fileadmin/user_upload/zubehoer_produkte/usb_repeater.jpg]]
+	Max repeaters: 5 		[[img images/usb_repeater.jpg]]
 	Max devices per controller: 127
 	Max Power provided per port
 		500ma for 2.0
