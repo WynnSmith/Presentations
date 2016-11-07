@@ -1,36 +1,14 @@
 ------------------------------------------
-Ch 20 - Input Devices
-	Serial Ports
-	COM Port Settings
+Ch 11 - Input Devices
 	USB
 	Firewire
 	Keyboards
 	Mice
 	Scanners
 	Cameras
+	Serial Ports
+	COM Port Settings
 	Other Devices
-
-------------------------------------------
-Serial Ports
-	Low speed I/O port 		[[img http://upload.wikimedia.org/wikipedia/commons/e/ea/Serial_port.jpg]]
-	Defined by RS-232 spec
-	Makes use of UART to convert between serial and parallal
-	9-pin male DB connector on PC
-	May be used by external modems or UPS
-		Internal modems have a serial port on the card
-		Most UPSs now use USB
-	Still used to connect to console port on routers
-	Referred to as COM port in software
-
--------------------------------------------
-COM port settings
-	Two devices connected via a serial cable need to have the following settings configured the same way.
-		bits per second 		[[img http://images.picotech.com/nport_properties.jpg]]
-		data bits
-		parity (odd/even)
-		stop bits 
-		flow control
-	These can be set via the COM port properties page in the device manager
 
 --------------------------------------------
 USB 
@@ -42,8 +20,8 @@ USB
 		3.0 - 5 GBps (superspeed)
 		All are backwards compatible
 	Connectors 		
-		Computer - Type A, mini A, micro A
-		Device - Type B, mini B (5 or 8 pin), micro B 
+		Computer - Type A, mini A, micro A, Type C
+		Device - Type B, mini B (5 or 8 pin), micro B, Type C
 	With USB, you typically install the drivers BEFORE plugging in the device - RTM
 
 -----------------------------------------------
@@ -110,6 +88,28 @@ Cameras
 		Used for video conferencing
 		Connect via USB
 
+------------------------------------------
+Serial Ports
+	Low speed I/O port 		[[img http://upload.wikimedia.org/wikipedia/commons/e/ea/Serial_port.jpg]]
+	Defined by RS-232 spec
+	Makes use of UART to convert between serial and parallal
+	9-pin male DB connector on PC
+	May be used by external modems or UPS
+		Internal modems have a serial port on the card
+		Most UPSs now use USB
+	Still used to connect to console port on routers
+	Referred to as COM port in software
+
+-------------------------------------------
+COM port settings
+	Two devices connected via a serial cable need to have the following settings configured the same way.
+		bits per second 		[[img http://images.picotech.com/nport_properties.jpg]]
+		data bits
+		parity (odd/even)
+		stop bits 
+		flow control
+	These can be set via the COM port properties page in the device manager
+
 -------------------------------------------
 Other devices
 	Biometric Devices 	[[img http://www.payroll-software.in/images/Device.png]]
@@ -126,14 +126,14 @@ Other devices
 		Allows multiple systems to share one Keyboard, mouse, and screen 
 --------------------------------------------
 Summary
-	Serial Ports
-	COM Port Settings
 	USB
 	Firewire
 	Keyboards
 	Mice
 	Scanners
 	Cameras
+	Serial Ports
+	COM Port Settings
 	Other Devices
 
 --------------------------------------------
