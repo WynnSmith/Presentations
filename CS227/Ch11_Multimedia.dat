@@ -17,16 +17,17 @@ Digitizing Sound Waves
 		Amplitude
 		Frequency
 	To digitize, wave is "sampled" at periodic intervals [[img CS227/Images/DigitisingWave.jpg]]
-		Sampling rate is measured in Khz
+		Sampling rate is measured in kHz
 		Bit Depth is number of bits per sample 
 	Tracks
 		One track - Monaural
 		Two Tracks - Stereo
-	CD quality is 44.1Khz, 16 bit depth, stereo
+	CD quality is 44.1kHz, 16 bit depth, stereo
+		8-to-14 data encoding (14 bits to encode 8 bits)
 
 --------------------------------------------
 Sound File Formats
-	Sound can be stored in a variety of file formats [[img http://a248.e.akamai.net/pix.crutchfield.com/ca/reviews/2007/0212/File-formats.gif]]
+	Sound can be stored in a variety of file formats [[img images/Audio-Formats.jpg]]
 	To process/interpret a sound file requires a codec
 		On Windows 7, use [[Media player!http://windows.microsoft.com/en-us/windows/codecs-frequently-asked-questions#codecs-frequently-asked-questions=windows-7]]	to find what codecs are installed (warning: technical info ahead!)
 	Uncompressed formats
