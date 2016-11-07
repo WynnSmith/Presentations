@@ -12,7 +12,7 @@ Ch 11 - Input Devices
 
 --------------------------------------------
 USB - Universal Serial Bus
-	Supports multiple devices on a single connection; single IRQ & Data I/O
+	Multiple devices on a single connection; single IRQ & Data I/O
 	Share bus via requests; bandwidth and power allocation.  
 	Originally low speed. 					[[img http://upload.wikimedia.org/wikipedia/commons/d/d6/Usb_connectors.JPG]]
 	Designed to replace serial, parallel, PS/2, & SCSI.
