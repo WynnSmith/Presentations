@@ -19,7 +19,7 @@ USB - Universal Serial Bus
 	Versions 						[[img images/dual-bus-usb3-cables.jpg]]
 		1.1 - 1.5M, 12Mbps (lowspeed, fullspeed)	
 		2.0 - 480 Mbps (highspeed)			[[img images/USB DVI VGA HDMI DisplayPort.jpg]]
-		3.0 - 5 GBps (superspeed)
+		3.0 - 5 Gbps (superspeed)
 		All are backwards compatible
 	Connectors 		
 		Computer - Type A, mini A, micro A, Type C
@@ -50,14 +50,14 @@ Firewire
 		Max devices: 63
 ------------------------------------------
 Thunderbolt
-	high-speed alternative to USB, Firewire,, and DisplayPort
+	high-speed alternative to USB, Firewire, and DisplayPort
 	Taps the PCI Express bus for up to six external peripherals
 	Supports video upto 4K
 	Thunderbolt 1 & 2 connect with Mini-DisplayPort connector
 		Thunderbolt 1 - upto 10 Gbps
 		Thunderbolt 2 - upto 20 Gbps
 	Thunderbolt 3 connects with USB Type C connector
-		Thunderbolt 3 - upto 40 Gbps, 3M on copper, 60M on fiber
+		Thunderbolt 3 - upto 40 Gbps, 3m on copper, 60m on fiber
 	
 ------------------------------------------
 Keyboards
