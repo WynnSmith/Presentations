@@ -14,10 +14,10 @@ Ch 11 - Input Devices
 USB - Universal Serial Bus
 	Supports multiple devices on a single connection; single IRQ & Data I/O
 	Share bus via requests; bandwidth and power allocation.  
-	Originally low speed. 
+	Originally low speed. 					[[img http://upload.wikimedia.org/wikipedia/commons/d/d6/Usb_connectors.JPG]]
 	Designed to replace serial, parallel, PS/2, & SCSI.
-	Versions 						[[img http://upload.wikimedia.org/wikipedia/commons/d/d6/Usb_connectors.JPG]]
-		1.1 - 1.5M, 12Mbps (lowspeed, fullspeed)	[[img images/dual-bus-usb3-cables.jpg]]
+	Versions 						[[img images/dual-bus-usb3-cables.jpg]]
+		1.1 - 1.5M, 12Mbps (lowspeed, fullspeed)	
 		2.0 - 480 Mbps (highspeed)			[[img images/USB DVI VGA HDMI DisplayPort.jpg]]
 		3.0 - 5 GBps (superspeed)
 		All are backwards compatible
