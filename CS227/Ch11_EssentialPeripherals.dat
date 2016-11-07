@@ -49,6 +49,17 @@ Firewire
 		Max Cable Length: 4.5 meters
 		Max devices: 63
 ------------------------------------------
+Thunderbolt
+	high-speed alternative to USB, Firewire,, and DisplayPort
+	Taps the PCI Express bus for up to six external peripherals
+	Supports video upto 4K
+	Thunderbolt 1 & 2 connect with Mini-DisplayPort connector
+		Thunderbolt 1 - upto 10 Gbps
+		Thunderbolt 2 - upto 20 Gbps
+	Thunderbolt 3 connects with USB Type C connector
+		Thunderbolt 3 - upto 40 Gbps, 3M on copper, 60M on fiber
+	
+------------------------------------------
 Keyboards
 	Connect via PS/2 or USB [[img images/Classic_Keyboard.png]]
 	Minor configuration can be done via Keyboard Control Panel Applet
@@ -69,7 +80,7 @@ Mice
 	Mouse substitutes: trackball, touchpad, etc..
 ------------------------------------------
 Scanners
-	Connect via PS/2 [[img http://cdn.ifanboy.com/wp-content/uploads/2011/10/scanner.jpg]]
+	Connect via PS/2 [[img images/scanner.jpg]]
 	Come with scanner software
 	Use TWAIN drivers
 	Optical resolution 
