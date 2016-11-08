@@ -71,12 +71,12 @@ Optical Drives
 
 --------------------------------------------
 Miscellaneous
-	XP can burn CDs but but not DVDs
 	Vista/7 can burn both CDs and DVDs
 	Windows 7 also enables you to burn an iso image
 		An .iso file is an exact image of an optical disk saved as a disk file
 		To burn the .iso to a CD/DVD, right click on it and select "burn disk image".
-	Several 3rd party packages are available for both OSs 
+	Several 3rd party packages are available 
+		(Not recommended. Often change default settings.) 
 		NERO
 		Roxio
 		etc..
