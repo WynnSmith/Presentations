@@ -47,7 +47,7 @@ Lossless Sound File Formats
 		.wma lossless
 			proprietary to Microsoft
 		others...
-	Higher compression rates can be achieved via lossly formats, so they are more common for downloading
+	Higher compression rates can be achieved via lossy formats, so they are more common for downloading
 ------------------------------------------
 Lossy Sound File Formats
 	Lossy Formats discard less audible or meaningful sounds and then use math magic to alter the data to store it in less space
@@ -84,7 +84,7 @@ Sound Card Jacks
 		Joystick/MIDI port
 	S/PDIF Connector [[img http://images.americas.creative.com/images/products/inline/1010_card_tour.jpg]]
 		allows direct digitial connection to 5.1/7.1 speaker system 
-	Examples
+	Examples  (need updates)
 		[[Example1!http://www.newegg.com/Product/ShowImage.aspx?CurImage=29-128-001-01.jpg&Image=29-128-001-02.jpg%2c29-128-001-01.jpg&S7ImageFlag=0&WaterMark=1&Item=N82E16829128001&Depa=1&Description=StarTech%20PCISOUND4CH%20Sound%20Card]]
 		[[Example2!http://www.newegg.com/Product/ShowImage.aspx?CurImage=29-126-004-07.jpg&Image=29-126-004-04.jpg%2c29-126-004-05.jpg%2c29-126-004-07.jpg%2c29-126-004-06.jpg%2c29-126-004-03.jpg%2c29-126-004-02.jpg&S7ImageFlag=0&WaterMark=1&Item=N82E16829126004&Depa=1&Description=PPA%201417v%20Sound%20Card]]
 
@@ -139,12 +139,9 @@ Video Codecs
 		WMA, WMV, H.263, Vorbis, Theora, etc..
 		[[Codec list from Wikipedia!http://en.wikipedia.org/wiki/List_of_codecs]]
 	To see which are installed
-		XP
-			Control Panel, Sounds and Audio Devices
-			Hardware tab -> Video Codecs -> Properties
 		Win 7
 			Start Windows Media player
-			Cntrl M, then Help->About
+			Ctrl M, then Help->About
 			Tech Support link, scroll down...
 
 --------------------------------------------
