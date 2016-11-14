@@ -14,6 +14,12 @@ Ch 21a - Monitors
 	Troubleshooting
 
 ------------------------------------------
+User Needs & Wants
+	Monitor Size & Aspect Ratio
+	Detail - Resolution & Pixels per Inch
+	Color Accuracy - Gamut
+	Budget Fit
+------------------------------------------
 Common Monitor Properties
 	Size 			[[img http://birnamwoodgames.com/wordpress/wp-content/uploads/2012/07/Aspect-Ratios.png]]
 		Diagonal measure, in inches
@@ -24,6 +30,7 @@ Common Monitor Properties
 	Resolution 
 		Horizontal X Vertical Pixels
 		Higher resolutions make things smaller on screen
+		UHD - 4K = 16:9, 3840 x 2160
 
 --------------------------------------------
 Properties continued...
@@ -31,7 +38,7 @@ Properties continued...
 		How often image is drawn
 	Somewhat different between CRTs and LCDs
 	Very important for CRTs (Vertical or VRR)
-		Too low causes eye strain
+		Too low causes eye strain (flicker)
 		Too high can damage display
 		Higher is better, under 72 Hz is bad (with CRTs)
 	Set via display properties
@@ -45,7 +52,7 @@ CRTs (Obsolete)
 		Do not disassemble or attempt to repair them
 	Typically have a slight curve to the screen, causes reflections [[img http://www.worldofpwnage.com/wp-content/uploads/2007/08/crt_vs_lcd_b.jpg]]
 	Later ones came with "flat" fronts, referred to as flat-screens 
-		Oftentimes confused with LCDs, which are flat panels]]
+		Oftentimes confused with LCDs, which are flat panels
 
 ---------------------------------------------
 CRT Advantages and Disadvantages
@@ -53,6 +60,7 @@ CRT Advantages and Disadvantages
 		Great picture at all resolutions
 		Fast Response Times
 		Inexpensive
+		Color vs non-IPS
 	Disadvantages
 		Bulky (big and heavy)
 		Inefficient (electricity -> heat)
@@ -81,6 +89,8 @@ LCDs
 		Active Matrix (or TFT)
 			More expensive
 			Provides faster, crisper image
+		IPS - In-Plane Switching
+			Improved color accuracy (wide gamut)
 
 -------------------------------------------
 LCD Advantages and Disadvantages
@@ -89,8 +99,12 @@ LCD Advantages and Disadvantages
 		Lower Power Consumption
 		Flicker Free
 		Longer life
+		Higher Resolutions
+		Larger Screen Size
 	Disadvantages (vs CRTs)
 		Only look great at native resolution
+		Sometimes unreadable in direct sunlight
+		Less color accuracy with non-IPS LCDs
 
 --------------------------------------------
 LCD Properties
