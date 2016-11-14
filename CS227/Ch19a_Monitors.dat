@@ -45,9 +45,9 @@ Properties continued...
 	
 ------------------------------------------
 CRTs (Obsolete)
-	Make use of a really big vacuum tube [[img http://www.unc.edu/~driedell/crt.jpg]]
+	Make use of a really big vacuum tube [[img images/big_crt_monitor.jpg]]
 	Draw image using three electron guns, one for Red, Green, and Blue
-	High-voltage coils "bend" the beams to cause them to scan across the screen [[img http://cs.fit.edu/~wds/classes/cse5255/thesis/images/crt.gif]]
+	High-voltage coils "bend" the beams to cause them to scan across the screen [[img images/Cathode-Ray-Tube-Diagram-1200x569.jpg]]
 		May contain high voltage (15KV+) even when off and unplugged
 		Do not disassemble or attempt to repair them
 	Typically have a slight curve to the screen, causes reflections [[img http://www.worldofpwnage.com/wp-content/uploads/2007/08/crt_vs_lcd_b.jpg]]
@@ -135,7 +135,7 @@ LCD Properties continued...
 
 ------------------------------------------
 Monitor Connections
-	VGA (RGB, DSub-15)  [[img images/VgaHdmiDvi.jpg]]
+	VGA (RGB, DSub-15)  [[img images/displayport_hdmi_dvi_vga.png]]
 		15 pins, in three rows
 		Analog signal (Optimal for CRTs)
 	DVI (Digital Video Interface) [[img http://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/DVI_Connector_Types.svg/500px-DVI_Connector_Types.svg.png]]
@@ -148,8 +148,10 @@ Monitor Connections
 			Dual Link - higher resolutions
 	HDMI - High Definition Multimedia Interface
 		Basically, Single-link DVI + audio
-	DisplayPort
+	DisplayPort		[[img images/DVI_DMS.jpg]]
 		Higher Resolution support
+	DMI-59
+		High-Density, Dual Monitor
 --------------------------------------------
 Projectors
 	Front View 		[[img http://www8.pcmag.com/media/images/304748-canon-realis-sx80-mark-ii.jpg?thumb=y]]
@@ -157,7 +159,7 @@ Projectors
 		LCD
 		Lamp (a Very bright backlight)
 	Lamp generates lots of heat
-	Throw Distance - projector to screen [[img http://htrgroup.com/images/doc_minmax_throwdistance.gif]]
+	Throw Distance - projector to screen [[img images/DQHDs3D-ProjectionGeometriesA-580px.png]]
 	Throw Ratio - throw/screen width 
 --------------------------------------------
 Troubleshooting
