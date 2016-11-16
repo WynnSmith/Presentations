@@ -42,30 +42,32 @@ Busses / Expansion Slots
 ------------------------------------------
 Monitor Connections
 	VGA (RGB, DSub-15)  [[img http://www.crs-uk.biz/images/vga_dvi_card.jpg]]
+		Called HD15 by CompTIA
 		15 pins, in three rows
-		Analog signal
-		Optimal for CRTs
+		Analog signal, Optimal for CRTs
 	DVI (Digital Video Interface) [[img images/DVI_Connectors.png]]
-		Several Flavors
 			DVI-A - analog
 			DVI-D - digital
 			DVI-I - integrated (both) [[img images/DMS_59.jpg]]
-		DVI-I and D
-			Single link - lower resolutions
-			Dual Link - higher resolutions
-	DMS-59 typically offers two DVI connectors 
-------------------------------------------
-Monitor Connections (continued)
-	HDMI (High-Definition Multimedia Interface) [[img images/DVI_HDMI_DisplayPort.jpg]]
-		Loosely described as: Single-link DVI + Audio
-		Associated software includes HDCP (high-def Content Protection)
+			Single link and Dual Link versions
 	DisplayPort
 		Supports higher bandwidth than HDMI [[img images/VideoConnectors.png]]
 		Manufacturers can use it "royalty free" (HDMI requires royalties)
+	Thunderbolt
+	DMS-59 typically offers two DVI connectors 
+	CompTIA includes ethernet RJ-45 as a video cable
+------------------------------------------
+Monitor Connections (consumer)
+	HDMI (High-Definition Multimedia Interface) [[img images/DVI_HDMI_DisplayPort.jpg]]
+		Loosely described as: Single-link DVI + Audio
+		Associated software includes HDCP (high-def Content Protection)
 	For other video devices [[img images/VideoAdapters.jpg]]
 		[[S-Video!http://en.wikipedia.org/wiki/S-Video]] 
 		[[Composite!http://en.wikipedia.org/wiki/RCA_connector]] (RCA port)
 		[[Others!http://en.wikipedia.org/wiki/List_of_display_interfaces]]
+	RCA - Composite Video
+	SVideo - Mini-DIN, called miniDIN6 by CompTIA
+	BNC - Often used with component video
 	An adapter can sometimes be used to convert from one type to another (but not always)
 ------------------------------------------
 CompTIA Tested Graphics Modes
