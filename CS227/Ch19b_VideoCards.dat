@@ -1,5 +1,5 @@
 ------------------------------------------
-Ch 21b - Video Cards
+Ch 19b - Video Cards
 	Basics
 	Busses / Expansion Slots
 	Monitor connections
@@ -68,15 +68,12 @@ Monitor Connections (continued)
 		[[Others!http://en.wikipedia.org/wiki/List_of_display_interfaces]]
 	An adapter can sometimes be used to convert from one type to another (but not always)
 ------------------------------------------
-Replacing Video card
-	Remove any software related to your old card
-	Uninstall the driver for the old card
-	Shut off PC
-	Remove old card, install new card
-	Reboot (system will use generic VGA driver to boot)
-	Install new driver & Software
-	Configure video properties
-
+CompTIA Tested Graphics Modes
+	VGA - 640 x 480, 4:3
+	XGA - 1024 x 768, 4:3
+	SXGA - 1280 x 1024, 5:4
+	UXGA - 1600 x 1200, 4:3
+	WUXGA - 1920 x 1200, 16:10
 ---------------------------------------------
 Multiple Displays
 	XP/Vista/7 support multiple displays
@@ -109,6 +106,15 @@ Direct X
 	XP supported up to 9
 	To determine the version on your PC, run DxDiag from run menu
 
+------------------------------------------
+Replacing Video card
+	Remove any software related to your old card
+	Uninstall the driver for the old card
+	Shut off PC
+	Remove old card, install new card
+	Reboot (system will use generic VGA driver to boot)
+	Install new driver & Software
+	Configure video properties
 -------------------------------------------
 Troubleshooting
 	Video cards rarely fail
