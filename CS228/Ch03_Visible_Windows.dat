@@ -1,5 +1,9 @@
 ------------------------------------------
 Ch 3 - Visible Windows
+	The CPU & GPU
+	The Pyramid
+	The OS
+	Managing & Optimizing the System
 	Windows Versions
 	GUI Basics
 	OS Folders
@@ -8,21 +12,32 @@ Ch 3 - Visible Windows
 	Admin Tools
 		
 --------------------------------------------
+The CPU
+	Multiple Cores
+	The ALU
+	L1 Cache
+	L2 Cache
+	L3 Cache
+--------------------------------------------
+The GPU
+	Pipeline
+	Width of Data Path
+	Local Memory
+--------------------------------------------
+The Pyramid
+	ALU - The goal is to keep it busy
+	Internal Cache
+	External Memory
+	I/O
+	Storage
+--------------------------------------------
 Windows Versions
 	Versions of Windows on A+ exam
-		Windows XP (NT 5.1)
-			Home/Pro/Media Center
-			XP 64 / 64 Pro (NT 5.2)
-		Windows Vista (NT 6)
-			Home / Home Premium
-			Business / Ultimate / Enterprise
-			64 bit versions of each
-		Windows 7 (NT 6.1)
-			Starter (not available in US) / Home Premium
-			Pro / Ultimate / Enterprise
-			64 bit versions of each (except Starter)
-		Windows 8
-		Windows 10
+		Windows XP  (Boot Files)
+		Windows Vista  (Security)
+		Windows 7
+		Windows 8 & 8.1
+		Windows 10  (Not yet on CompTIA test)
 
 --------------------------------------------
 User Interface
