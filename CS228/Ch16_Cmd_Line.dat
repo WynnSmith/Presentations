@@ -1,5 +1,5 @@
 ------------------------------------------
-Ch 18 - Windows Command Line
+Ch 16 - Windows Command Line
 	Why a command line?
 	Windows Command Shells
 	Filename Rules
@@ -13,28 +13,25 @@ Ch 18 - Windows Command Line
 ------------------------------------------
 Why a command line?
 	It's faster for many operations
-	Scripts (batch files) can be written that automate tasks
+	It provides features the GUI doesn't
+	Repeatable & Automatable via Scripts
 	Sometimes necessary for troubleshooting when you can't get to a GUI
-		XP recovery console provides only a command line
-		Advanced Boot Options Menu provides abilty to boot directly to Command line
-		Many 3rd party boot disks provide only a command line
-	Windows Server now lets you install without the GUI; all admin is done remotely or via cmd line
+	Windows Server can be installed with Core only (no GUI)
+	Admin via Terminal connection
 --------------------------------------------
 Windows Command Shells
 	command.com is the old 16-bit DOS cmd line.
-		Still installed and easily available in XP	
 		Don't ever use this.  It's for backwards compatibility with old programs.
-		Note: typing "Command" in the run/search box on Vista/7 will run cmd.exe
+		Note: typing "Command" in the run/search box on Vista/7/8/10 will run cmd.exe
 	cmd.exe is the 32-bit Windows command line.
 		Supports long filenames
 		Supports history
-		To run:
-			start | all programs | accessories | Command Prompt
-			start | run/search, type cmd, press enter
+		To run:  Press [Windows], type 'CMD', press [Enter]
 	Powershell
-		More powerful (linux-like) command line interface
-		Includes better scripting language
-		Available in 7; installable in XP/Vista
+		More powerful than Linux, and CMD Shell
+		Object Pipeline vs Text Pipeline
+		Includes scripting language similar to C++ with full Framework
+		Installable in XP/Vista.  Included in Win7/8/10
 ------------------------------------------
 Filename rules
 	Filenames are typically  composed of letters, numbers, and spaces, but may contain many other characters.
@@ -67,7 +64,7 @@ Help text
 		dir
 		copy
 ------------------------------------------
-Fundamental Commands
+Fundamental CMD Shell Commands
 	dir - directory listing
 	cd - change directory	
 		note: doesn't change drives (use d: for that)
