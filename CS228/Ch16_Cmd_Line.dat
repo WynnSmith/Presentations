@@ -47,6 +47,7 @@ Filename rules
 		[[code]]
 		* " / \ [ ] : ; ! =
 	These charactes have special meaning to the shell
+	Use quotes to surround filenames that include a space
 ------------------------------------------
 Command Syntax
 	Basic CMD Syntax
@@ -72,6 +73,7 @@ Help text
 		Type 'apropos' followed by a search term
 		Type 'whatis' followed by the command
 	PowerShell  (not case sensitive)
+		Type command followed by -?
 		Type 'Get-Help' followed by command or search term
 			[[code]]
 			Get-help *disk*
