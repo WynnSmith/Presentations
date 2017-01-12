@@ -19,6 +19,14 @@ Why a command line?
 	Windows Server can be installed with Core only (no GUI)
 	Admin via Terminal connection
 --------------------------------------------
+Command Types
+	Internal commands are built-in to the Shell
+		[[code]]
+		cd
+	External commands call a separate executable
+		[[code]]
+		xcopy
+--------------------------------------------
 Windows Command Shells
 	command.com is the old 16-bit DOS cmd line.
 		Don't ever use this.  It's for backwards compatibility with old programs.
@@ -34,15 +42,14 @@ Windows Command Shells
 		Installable in XP/Vista.  Included in Win7/8/10
 ------------------------------------------
 Filename rules
-	Filenames are typically  composed of letters, numbers, and spaces, but may contain many other characters.
-	Disallowed characters
+	Filenames are typically composed of letters, numbers, and spaces, but may contain many other characters.
+	Disallowed characters: 	
 		[[code]]
 		* " / \ [ ] : ; ! =
 	These charactes have special meaning to the shell
-
 ------------------------------------------
 Command Syntax
-	Basic Syntax
+	Basic CMD Syntax
 		[[code]]
 		command /switch argument
 	switches affect the way the command behaves
@@ -54,15 +61,25 @@ Command Syntax
 		dir /A afolder
 ------------------------------------------
 Help text
-	Each command provides terse help text describing all the command's switches and arguments
-	Type the command name followed by /? to see help text
-		Optional switches/arguments are shown in [ ]
-		Those not in [ ] are mandatory
-		Mutually excluse switches are separated with |
-		If a switch has an argument, it's separated by a :
-	Look at the help text of the following
-		dir
-		copy
+	Windows CMD Shell  (not case sensitive)
+		Type the command followed by /? 
+		Type 'help' followed by command
+	Linux CMD Shell  (case sensitive)
+		Type 'help' to see built-in shell commands
+		Type the command followed by --help
+		Type 'man' followed by the command
+		Type 'info' followed by the command
+		Type 'apropos' followed by a search term
+		Type 'whatis' followed by the command
+	PowerShell  (not case sensitive)
+		Type 'Get-Help' followed by command or search term
+			[[code]]
+			Get-help *disk*
+			Get-help Mount-DiskImage
+			Get-help get-help -showWindow
+		Type 'Get-command' followed by command or search term
+			[[code]]
+			Get-command *help*
 ------------------------------------------
 Fundamental CMD Shell Commands
 	dir - directory listing
@@ -79,7 +96,7 @@ Fundamental CMD Shell Commands
 Wildcards
 	Wildcards can be used in file and folder names
 		[[code]]
-		* - matches multple characters
+		* - matches multiple characters
 		? - matches a single character
 	Examples
 		[[code]]
@@ -125,14 +142,6 @@ Additional Commands
 	compact - compresses files/folders
 	cipher - encrypts files/folders
 -------------------------------------------
-Closing Remarks   
-	The command line is NOT DOS
-		DOS is an OS
-		The command line is a user interface
-	The command line should never be referred to as DOS
-	The command line should never be referred to as DOS
-	The command line should never be referred to as DOS
---------------------------------------------
 Summary
 	Why a command line?
 	Windows Command Shells
