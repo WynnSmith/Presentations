@@ -48,6 +48,12 @@ Filename rules
 		* " / \ [ ] : ; ! =
 	These charactes have special meaning to the shell
 	Use quotes to surround filenames that include a space
+	Common syntax in command shells:
+		[[code]]
+		. current folder (a single dot)
+		.. parent folder  (two dots)
+		\ or /  root folder  
+		example:  cd ..  (move to parent folder)
 ------------------------------------------
 Command Syntax
 	Basic CMD Syntax
