@@ -135,6 +135,7 @@ PowerShell Basics
 		New-PSDrive -name "W" -PSProvider "FileSystem" -Root "\\ServerName\Share"
 		New-PSDrive X FileSystem \\ServerName\Share
 		(equivalent to CMD's 'Net Use W \\ServerName\Share')
+	Cmdlets come from modules provided by each part of Windows or Server
 -------------------------------------------
 Wildcards
 	Wildcards can be used in file and folder names
