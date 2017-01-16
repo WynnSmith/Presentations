@@ -128,8 +128,13 @@ PowerShell Basics
 		Remove-Item
 		Rename-Item
 	Uses most existing commands of Linux and CMD shell
-	Commands are called "Cmdlets"
+	PowerShell Commands are called "Cmdlets"
 	Cmdlets perform small functions within a pipeline
+	Cmdlet parameters can be specified or positional
+		[[code]]
+		New-PSDrive -name "W" -PSProvider "FileSystem" -Root "\\ServerName\Share"
+		New-PSDrive X FileSystem \\ServerName\Share
+		(equivalent to CMD's 'Net Use W \\ServerName\Share')
 -------------------------------------------
 Wildcards
 	Wildcards can be used in file and folder names
