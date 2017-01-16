@@ -40,6 +40,12 @@ Windows Command Shells
 		Object Pipeline vs Text Pipeline
 		Includes scripting language similar to C++ with full Framework
 		Installable in XP/Vista.  Included in Win7/8/10
+	BASH
+		Introduced with the Anniversary update of Windows 10
+		Not a VM of Linux, nor a simulation
+		Provides an alternative command shell to Windows
+		Capable of running Linux utilities
+		Must be enabled
 ------------------------------------------
 Filename rules
 	Filenames are typically composed of letters, numbers, and spaces, but may contain many other characters.
@@ -48,11 +54,11 @@ Filename rules
 		* " / \ [ ] : ; ! =
 	These charactes have special meaning to the shell
 	Use quotes to surround filenames that include a space
-	Common syntax in command shells:
+	Common references in command shells:
 		[[code]]
 		. current folder (a single dot)
 		.. parent folder  (two dots)
-		\ or /  root folder  
+		\  root folder  
 		example:  cd ..  (move to parent folder)
 ------------------------------------------
 Command Syntax
@@ -63,9 +69,10 @@ Command Syntax
 	argument(s) are what the command operates on (typcially a file or folder name)
 	Examples
 		[[code]]
-		dir
-		dir /A
-		dir /A afolder
+		dir  (show everything not hidden)
+		dir /ah  (show everything hidden)
+		dir /ad  (show directories)
+		dir /a-d  (show everything that's not a directory)
 ------------------------------------------
 Help text
 	Windows CMD Shell  (not case sensitive)
@@ -83,8 +90,8 @@ Help text
 		Type 'Get-Help' followed by command or search term
 			[[code]]
 			Get-help *disk*
-			Get-help Mount-DiskImage
 			Get-help get-help -showWindow
+			Get-help Mount-DiskImage
 		Type 'Get-command' followed by command or search term
 			[[code]]
 			Get-command *help*
@@ -101,6 +108,29 @@ Fundamental CMD Shell Commands
 	xcopy - copies directory trees
 	attrib - changing file attributes
 -------------------------------------------
+Fundamental Linux Shell Commands
+	ls - List files
+	cd - change directory
+	mkdir - make a directory
+	rm - remove a file
+	rmdir - remove a directory
+	mv - move or rename a file
+	touch - create a file or renew its date stamp
+	Find - Search the file system
+	Locate - Search the file database
+-------------------------------------------
+PowerShell Basics
+	Introduced with Server 2008 and Windows 7
+	Introduces Verb-Noun syntax
+		[[code]]
+		Get-ChildItem
+		New-Item
+		Remove-Item
+		Rename-Item
+	Uses most existing commands of Linux and CMD shell
+	Commands are called "Cmdlets"
+	Cmdlets perform small functions within a pipeline
+-------------------------------------------
 Wildcards
 	Wildcards can be used in file and folder names
 		[[code]]
@@ -114,7 +144,7 @@ Wildcards
 -------------------------------------------
 Batch Files
 	Batch files allow you to run a sequence of commands
-	Batch files 
+	Command Shell Batch files 
 		end in .bat
 		Should contain only cmd line commands
 		comment lines begin with a # or rem
