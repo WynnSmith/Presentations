@@ -1,5 +1,5 @@
 ------------------------------------------
-Ch 12 - Implementing Hard Drives
+Ch 10 - Implementing Hard Drives
 	Partitioning Basics 
 	Partitioning Types
 		MBR
@@ -13,16 +13,17 @@ Ch 12 - Implementing Hard Drives
 	Disk Maintenance
 ------------------------------------------
 Vocabulary
-	Physical Partitions of the Disk
+	Microsoft Disk Types
+		Basic - MBR & GPT
+		Dynamic - Dynamic
+	Physical Partition Vocabulary
 		Partitions - MBR & GPT
 		Volumes (Physical) - Dynamic
 	Logical Disks, as seen by OS/User
 		Partitions
 		Volumes (Logical) - MBR Extended, Dynamic
 		Combined Partitions - Span, Stripe, RAID
-	Microsoft Disk Types
-		Basic - MBR & GPT
-		Dynamic - Dynamic
+
 ------------------------------------------
 Partitioning Basics
 	A Partition is a subdivision of a disk that can be used to store files (via a file system)
