@@ -1,10 +1,11 @@
 ------------------------------------------
 Ch 10 - Implementing Hard Drives
+	Vocabulary
 	Partitioning Basics 
-	Partitioning Types
+	Disk Types
 		MBR
-		Dynamic
 		GPT
+		Dynamic
 	File System Basics
 	Windows File Systems
 		FAT
@@ -13,9 +14,9 @@ Ch 10 - Implementing Hard Drives
 	Disk Maintenance
 ------------------------------------------
 Vocabulary
-	Microsoft Disk Types
+	Disk Types  (schemes)
 		MBR - Basic  (2TB Limit)
-		GPT - Basic  (Requires UEFI)
+		GPT - Basic  (Requires UEFI to boot)
 		Dynamic - MBR or GPT (Microsoft only)
 	Physical Partition Vocabulary
 		Partitions - MBR & GPT
@@ -37,14 +38,6 @@ Partitioning Basics
 		To provide separate partions for Software and Data
 
 ------------------------------------------
-Partitioning Types
-	Three partitioning schemes
-		MBR - Industry standard
-		Dynamic Disks - Proprietary Microsoft Technology
-		GPT - Industry standard replacement for MBR
-	Microsoft refers to MBR and GPT partitioned disks as basic disks, a name they created after they invented Dynamic Disks
-	Only Microsoft supports Dynamic Disks
--------------------------------------------
 MBR Disks
 	First Sector of drive (Master Boot Record) contains
 		MBR Program
@@ -67,11 +60,21 @@ MBR Disks continued
 		MBR program loads volume boot sector from active partition 
 		Partition Boot Sector loads first O.S. boot program
 
+-------------------------------------------
+GPT Disks
+	Globally Unique Identifer Partition Table
+	Similar to MBR but limitations have been fixed
+		Lots of Partitions (128 on MS systems)
+		Maximum Partition size in Zettabytes!
+			1 Zettabyte is 1 million terabytes!
+		Eliminates LBA->CHS trickery
+	Utilizes GPT Header in place of MBR sector
+		Has a copy of this header at the beginning and ending of the disk for redundancy.
 --------------------------------------------
 Dynamic Disks
 	Proprietary Microsoft technology introduced with Windows 2K and supported only by Microsoft OSs
 	Partitions replaced with Volumes, no logical drives
-	MBR still there for backwards compatibilty
+	Built on MBR or GPT disks
 	Volume info is stored in a small hidden volume at the end of the disk
 
 --------------------------------------------
@@ -84,16 +87,6 @@ Dynamic Disk Volume Types
 		Mirrored (RAID 1)
 			Also supported in Windows 7 Pro or better!
 		RAID 5
--------------------------------------------
-GPT Disks
-	Globally Unique Identifer Partition Table
-	Similar to MBR but limitations have been fixed
-		Lots of Partitions (128 on MS systems)
-		Maximum Partition size in Zettabytes!
-			1 Zettabyte is 1 million terabytes!
-		Eliminates LBA->CHS trickery
-	Utilizes GPT Header in place of MBR sector
-		Has a copy of this header at the beginning and ending of the disk for redundancy.
 --------------------------------------------
 Other Partition Types
 	Hidden partition - A partition that is hidden from the OS
@@ -114,7 +107,7 @@ Windows File Systems
 	FAT
 		Supported by all Microsoft OSs since DOS
 		Utilizes a File Allocation Table
-		Versions: FAT16 & FAT32
+		Versions: FAT, FAT16, FAT32, & exFAT
 		FAT32 supports partitions up to 2 TB
 			but Windows can only format FAT partitions up to 32GB
 			Supports File Sizes up to 4GB
@@ -135,13 +128,11 @@ NTFS Features
 --------------------------------------------
 Disk Partitioning and Managment tools
 	3rd party Tools (partition magic)
-	Windows XP/Vista/7 install process
-		XP's is primative looking (VGA)
-		Vista/7s looks nicer (GUI), but works the same
-	Disk Managment Tool
-		GUI tool available since Win2K+
-		diskmgmt.msc
-
+	Windows install process
+	Disk Managment Tool: diskmgmt.msc
+	DOS: FDISK
+	CMD: DiskPart
+	PowerShell
 --------------------------------------------
 Disk Management Tool 
 	Shows partitions/volumes on a disk
