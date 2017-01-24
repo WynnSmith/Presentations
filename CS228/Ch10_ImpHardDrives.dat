@@ -16,7 +16,7 @@ Vocabulary
 	Microsoft Disk Types
 		MBR - Basic  (2TB Limit)
 		GPT - Basic  (Requires UEFI)
-		Dynamic - Dynamic (Microsoft only)
+		Dynamic - MBR or GPT (Microsoft only)
 	Physical Partition Vocabulary
 		Partitions - MBR & GPT
 		Volumes (Physical) - Dynamic
