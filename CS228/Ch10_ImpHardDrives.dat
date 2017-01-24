@@ -14,8 +14,9 @@ Ch 10 - Implementing Hard Drives
 ------------------------------------------
 Vocabulary
 	Microsoft Disk Types
-		Basic - MBR & GPT
-		Dynamic - Dynamic
+		MBR - Basic
+		GPT - Basic
+		Dynamic - Dynamic (Microsoft only)
 	Physical Partition Vocabulary
 		Partitions - MBR & GPT
 		Volumes (Physical) - Dynamic
