@@ -47,6 +47,8 @@ Installation Types
 	Multiboot install - each on separate partition
 	Install in order, from oldest to newest
 	CompTIA certification does not cover Imaging & Deployment Tools
+		PXE - Preboot Execution Environment (over network)
+		NetBoot - Mac deployment tool
 
 --------------------------------------------
 Installation Methods
