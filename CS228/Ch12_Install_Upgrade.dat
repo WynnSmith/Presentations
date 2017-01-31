@@ -10,6 +10,7 @@ Ch 12 - Installing & Upgrading Windows
 Installation Preparation
 	Identify Hardware Requirements
 	Verify Hardware and Software Compatibilty
+	Collect Product Key for Installation
 	Decide on Clean Install or Upgrade
 	Determine Data Backup/Restore process
 	Select an installation method
@@ -28,6 +29,10 @@ Verify Hardware and Software Compatibilty
 	Upgrade Assistant will analyze system 
 	Just because MS doesn't think a piece of hardware or software is compatible, it still may be
 		Check Hardware manufacturers site for latest drivers.
+----------------------------------------------
+Demo Product Key
+	default keys available on DVD in \sources\product.ini file
+		Look for Professional, not ProfessionalE or ProfessionalN, etc.
 
 ----------------------------------------------
 Installation Types
