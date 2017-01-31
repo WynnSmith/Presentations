@@ -8,7 +8,7 @@ Ch 12 - Installing & Upgrading Windows
 	
 --------------------------------------------
 Installation Preparation
-	Identfify Hardware Requirements
+	Identify Hardware Requirements
 	Verify Hardware and Software Compatibilty
 	Decide on Clean Install or Upgrade
 	Determine Data Backup/Restore process
@@ -41,7 +41,6 @@ Installation Types
 			Not all upgrade paths are valid
 	Multiboot install - each on separate partition
 	Install in order, from oldest to newest
-	Activation - required by XP/Vista/7/8/10
 
 --------------------------------------------
 Installation Methods
