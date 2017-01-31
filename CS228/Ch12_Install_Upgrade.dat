@@ -24,14 +24,14 @@ Verify Hardware and Software Compatibilty
 		XP - HCL or Windows Catalog
 		Vista - Windows Logo'd Products list
 		Win 7 - Compatibilty Center (website)
-	Upgrade Advisor will analyze system to see if it will run 7
-		Located on Win 7 CD and/or downloadable
-	Just because MS doesn't think a piece of hardware is compatible, it still may be
+		Win 8/10 - Upgrade Assistant
+	Upgrade Assistant will analyze system 
+	Just because MS doesn't think a piece of hardware or software is compatible, it still may be
 		Check Hardware manufacturers site for latest drivers.
 
 ----------------------------------------------
 Installation Types
-	NT/2K/XP/Vista/7 installs are all very similar
+	NT/2K/XP/Vista/7/8/10 Disc installs are all very similar
 	Install types
 		Clean
 			Wipes out all existing config info and software
@@ -39,9 +39,9 @@ Installation Types
 			Existing info & software carries forward
 			In theory faster, in practice, often not
 			Not all upgrade paths are valid
-	Multiboot install - clean on separate partition
-		With XP, you could specify the folder (and therefore install two OSs on the same partition)
-	Activation - required by XP/Vista/7
+	Multiboot install - each on separate partition
+	Install in order, from oldest to newest
+	Activation - required by XP/Vista/7/8/10
 
 --------------------------------------------
 Installation Methods
@@ -50,16 +50,17 @@ Installation Methods
 	Unattended
 		You create an answer-file that is then used during the install
 		In theory, you can simply start the install, and come back later to an up-and-running system
-		On XP, Setup Manager is used to create the answer file
-		On Vista/7, a new process: WAIK (windows automated Install Kit) is used
+		Vista/7, a new process: WAIK (windows automated Install Kit) is used
+		Win 8/10, Assessment and Deployment Kit (ADK)
 	Installs can be done off media or over the network from a shared folder
 --------------------------------------------
 Install Methods Continued...
 	Image Deployment (cloning)
 		Most common for large deployments
-		Allows cloning OS and all Applications
+		Allows cloning OS, Applications, and Settings
 		Sysprep is used to prepare disk for cloning
-		Ghost is commonly used for the cloning.  WAIK (Vista/7) includes imageing tools.
+		Old Days: Ghost - Writes bits
+		Now: ImageX - Writes files, avoids redundancy, supports mulitple images on same media
 		
 --------------------------------------------
 Post-Install Tasks
@@ -75,6 +76,7 @@ Migrating
 		Small number of users
 			File and Settings Transfer Wizard (to XP)
 			Windows Easy Transfer (to Win 7)
+			User State Migration Tool (Win 8/10)
 		Large Number of users (Domains)
 			User State Migration Tool
 
