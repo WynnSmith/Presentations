@@ -1,13 +1,10 @@
 ------------------------------------------
 Ch 13 - Registry, Boot Process, Misc
 	Registry
-	System and Boot Partitions and Files
-	XP Boot Process
-		boot.ini file details
-		ARC Naming Convention
-	Vista/7 Boot process
+	Win XP Boot Process
+	Win Vista/7/8/10 Boot process
 	Task Manager
-	Performance Monitor
+	Resource & Performance Monitor
 
 ------------------------------------------
 Registry
@@ -18,7 +15,9 @@ Registry
 		OS Components
 		User Preferences
 	Stored in files called hives
-	Hives are located in \Windows\System32		
+	Hives 
+		\Windows\System32
+		User Profile (Local or Network)
 
 -------------------------------------------
 Viewing & Editing Registry
@@ -43,7 +42,7 @@ System & Boot Partitions
 		boot.ini (text file)
 		ntdetect.com
 		ntbootdd.sys (if using SCSI)
-	Vista/7 Boot files
+	Vista/7/8/10 Boot files
 		BootMgr (Boot manager)
 		Boot Configuration Data (BCD) file
 		winload.exe (in Windows\System32)
@@ -84,23 +83,23 @@ ARC Naming convention
 		multi(0)disk(0)rdisk(0)parition(1)\windows
 
 --------------------------------------------
-Vista/7 Boot Process changes
+Vista/7/8/10 Boot Process changes
 	BootMGR replaces NTLDR
 	BCD (boot configuration data) replaces boot.ini file
 		Info is no long stored as text
 		BCDEdit must be used to modify it
-	Vista/7 support two firmware boot processes 
+	Vista/7/8/10 support two firmware boot processes 
 		BIOS (Basic I/O System) - old
 		UEFI (Unified Extensible Firmware Interface) - new
 ----------------------------------------------
-Vista/7 Boot Process
+Vista/7/8/10 Boot Process
 	BIOS based boot Process
 		BIOS finds boot disk
 		MBR is loaded/run from boot disk
 		Boot sector program is loaded/run from active partition
 		BootMGR is loaded/run
 			BCD info is processed
-		if Vista/7 version is selected
+		if Vista/7/8/10 version is selected
 			BootMGR runs winload.exe
 			Winload.exe loads Kernel (ntoskrnl.exe)
 		if NT/NT/2K/XP system is selected
@@ -114,7 +113,7 @@ Task Manager
 	Lists apps, processes, performance overview, etc..
 	Allows termination of apps or processes
 	Run by:
-		cntl-alt-delete
+		ctrl-alt-delete
 		Right-click on taskbar, select task manager
 		From control panel
 		and a few others...
@@ -128,6 +127,7 @@ Performance Monitor
 		CPU usage
 		Disk I/O reads/writes
 		Memory Page faults
+	Used to Create a Baseline for future comparison
 
 --------------------------------------------
 Summary
@@ -135,5 +135,5 @@ Summary
 	XP Boot Process
 	boot.ini file
 	ARC Naming Convention
-	Vista/7 Boot process changes
+	Vista/7/8/10 Boot process changes
 --------------------------------------------
