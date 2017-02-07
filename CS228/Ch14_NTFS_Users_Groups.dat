@@ -20,6 +20,9 @@ User Accounts
 	User Account types
 		Local - Authenticated by clients (i.e. Windows)	
 		Domain - Authenticated by domain (i.e. Network Server)
+			Delegated Authentication
+		Internet - Central Authentication (i.e. MS ID, AppleID)
+			Dual Authentication
 	Default accounts
 		Administrator
 		Guest
