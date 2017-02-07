@@ -1,5 +1,5 @@
 ------------------------------------------
-Ch 16 - NTFS, Users, and Groups
+Ch 14 - NTFS, Users, and Groups
 	User Accounts
 	Authentication vs Authorization
 	Passwords
@@ -7,12 +7,10 @@ Ch 16 - NTFS, Users, and Groups
 	Managing Users
 	Login Options
 	UAC
-	Parental Controls
 	NTFS
 	Sharing
 	Encryption
-	UAC Details
-
+	
 --------------------------------
 User Accounts
 	Users Accounts are the foundation up which security is built
@@ -20,8 +18,8 @@ User Accounts
 		are given permissions to files
 		are given rights to do things
 	User Account types
-		Local - Managed by clients (i.e. XP/Vista/7)	
-		Domain - Managed by domain controller
+		Local - Authenticated by clients (i.e. Windows)	
+		Domain - Authenticated by domain (i.e. Network Server)
 	Default accounts
 		Administrator
 		Guest
@@ -33,7 +31,7 @@ Authentication vs Authorization
 		Password
 	Authorization - What a user can access and do
 		NTFS permissions
-		User Rights
+		Resource permissions
 
 --------------------------------------
 Passwords
@@ -43,36 +41,36 @@ Passwords
 		Password is case sensitive
 		Users should create their own
 	Admins cannot see or retrieve user passwords, but can reset them
-			If reset, the user will no longer be able to access previously encrypted files
+		If reset, the user will no longer be able to access previously encrypted files
 	Many places force users to change passwords periodically
 	User can create "forgotten password disk"
 		Keep in safe place, use when password is forgotten
-		Windows 7 also lets you set a password hint
+		Windows lets you set a password hint
 
 --------------------------------
 Groups
 	Groups make administration easier
 	User Accounts should be put into groups
 	Groups are given rights and permissions
-	Default XP groups
+	Default groups
 		Administrators
 		Power Users (pro)
 		Users (Limited Users)
 		Everyone
 		Guests
-	Vista/7 Pro groups
 		Those plus more....
 --------------------------
 Managing Users
 	There are two tools available for managing users
 		User Applet on Control Panel
 			Simple, appears designed for home use
-		Local Users and Groups tool (from computer managment console)
+			Very Limiting
+		Local Users and Groups tool (from Computer Managment console)
 			More complex with more features/controls
 -----------------------------
 Login Options
-	Welcome Screen (introduced with XP)
-		Default
+	Welcome Screen 
+		Default for Home systems
 		List of users is displayed
 		Administrator is not displayed (by default)
 		Supports fast user switching
@@ -80,7 +78,6 @@ Login Options
 		Most Secure
 		Press cntrl-alt-delete
 		Enter username and password
-	Selected via User Applet on Control panel
 --------------------------------
 User Account Control
 	Historically, Windows users needed to be admins to install software
@@ -88,15 +85,16 @@ User Account Control
 	UAC solves this
 		When admin rights are to be used, system prompts for admin credentials
 		Introduced (poorly) with Vista
-		Made usable in 7
+		Made usable in later Windows versions
 --------------------------------------------
 Parental Controls
-	Vista/7 have parental controls
+	Vista/7/8 have parental controls
+	Windows 10 ties Parental Controls to a subscription
 	These allow you to monitor and limit activities of any standard user
 		Block websites type or URL, or only allow certain websites
 		Limit times and length of login
 		Block games with certain ESRB ratings
-
+		White lists of approved apps or URLs
 --------------------------------------------
 NTFS
 	A secure, robust file system introduced with Windows NT
@@ -108,6 +106,7 @@ NTFS
 		Security
 			Each file is owned by a specific user
 			User access to files and folders is configurable via permissions
+			Audit logs
 
 ------------------------------------------
 File Ownership
@@ -116,7 +115,8 @@ File Ownership
 	There is a take ownership permission that, when given to someone, allows them to take ownership of the file
 	Administrators have take ownership permission
 	By default Files inherit the permissions from the folder they're in
-
+	Respect TrustedInstaller - Needs Full Control
+		NT SERVICE\TrustedInstaller
 ------------------------------------------
 Basic NTFS Permissions
 	Full Control
@@ -125,14 +125,14 @@ Basic NTFS Permissions
 	List Folder Contents (folders only)
 	Read
 	Write
+	Permissions only apply on NTFS volumes (not FAT)
 
 ----------------------------------------
 Moving and Copying files
 	Rule 1 - New files always inherit their permissions from the folder into which they're placed.
-	Copying a file creates a new file, see Rule 1
-	Moving a file to a new volume creates a new file (and deletes the original), see Rule 1
+		Copying a file creates a new file, see Rule 1
+		Moving to a new volume creates a new file (deletes original), see Rule 1
 	Moving files within the same volume doesn't create a new file, and doesn't change permissions
-	Permissions only apply on NTFS volumes (not FAT)
 
 ----------------------------------------
 Sharing
@@ -142,12 +142,13 @@ Sharing
 			Public folders are done this way
 		Network Sharing - Making a folder available on the network
 			Involves both NTFS and Sharing permissions
-	Local sharing his handled with NTFS permissions
+	Local sharing is handled with NTFS permissions
 		Public folders are configured to allow sharing with everyone
 
 ------------------------------------------
 Simple File Sharing
-	NTFS is complicated, so with XP, Microsoft created Simple File Sharing for home/small office use
+	NTFS is complicated, so Microsoft created Simple File Sharing
+		Sharing Wizard
 	Simple File Sharing, when enabled, hides all the NTFS permissions
 	Public Folder has permissions set so all users can write to it
 	It's enabled via Windows Explorer
@@ -155,8 +156,8 @@ Simple File Sharing
 	Note: it is disabled if the computer is a part of a domain
 
 --------------------------------------------
-Sharing in Vista/Windows 7
-	With Vista/7 there's a new simple User Interface for sharing files/folders with specific users
+Sharing in Windows
+	With Windows there's a simple User Interface for sharing files/folders with specific users
 		Right-click on a folder/file and select "Share With" from the context menu
 		Select the user you want to share the file with
 		Choose the following "share" level
@@ -172,11 +173,10 @@ Encryption
 		User encrypting data and Admin can get access
 	Bitlocker
 		Allows encrypting entire hard drive
-		Supported by Vista/7
 		Requires hardware support (TPM)
 		Control Panel -> System and Security -> Bitlocker
 --------------------------------------------
-UAC Details (7)
+UAC Details 
 	UAC level can be set via Control Panel applet (User Accounts)
 		Always notify me 
 		Notify me when programs make changes (but not when I do)
@@ -196,6 +196,5 @@ Summary
 	NTFS
 	Sharing
 	Encryption
-	UAC Details
 
 --------------------------------------------
