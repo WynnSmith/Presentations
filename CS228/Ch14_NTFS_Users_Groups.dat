@@ -132,7 +132,9 @@ Basic NTFS Permissions
 	List Folder Contents (folders only)
 	Read
 	Write
+	
 	Permissions only apply on NTFS volumes (not FAT)
+	Most permissions are granted via Inheritance
 
 ----------------------------------------
 Moving and Copying files
