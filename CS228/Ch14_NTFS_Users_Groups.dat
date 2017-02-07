@@ -110,6 +110,10 @@ NTFS
 			Each file is owned by a specific user
 			User access to files and folders is configurable via permissions
 			Audit logs
+	Permissions are cumulative, except "Deny" is a veto
+	Recommend:  
+		Assign Groups, not Users
+		Add Global Groups into Local Resource Group
 
 ------------------------------------------
 File Ownership
