@@ -1,5 +1,5 @@
 ------------------------------------------
-Ch 17 - Windows Maintenance and Optimization
+Ch 15 - Windows Maintenance and Optimization
 	Patches / Updates
 	Disk Mainenance
 	Task Scheduler
@@ -39,12 +39,12 @@ Disk Maintenance
 ------------------------------------------
 Task Scheduler
 	Allows you to schedule tasks to automatically run at certain times
-	Vista/7 version is significantly updated
+	Vista/7/8/10 version is significantly updated
 		XP version called Scheduled Tasks
-		Vista/7 version called Task Scheduler
+		Vista/7/8/10 version called Task Scheduler
 	Ran from
 		Start | Programs | Accessories | System Tools
-		and/or Admin tools menu in Vista/7
+		and/or Admin tools menu in Vista/7/8
 
 ------------------------------------------
 System Configuration and Information
@@ -61,7 +61,7 @@ System Configuration and Information
 Installing and Removing Software
 	Control panel Applet for software admin 
 		XP: Add or Remove Programs
-		Vista/7: Programs and Features
+		Vista/7/8/10: Programs and Features
 	Methods to install App software
 		Application supplied installer
 			Windows Autorun process reads autorun.inf file and does actions specified within
@@ -74,7 +74,7 @@ Installing and Removing Software
 	
 ------------------------------------------
 Device and Driver Maintenance
-	2K/XP/Vista/7 all support PnP
+	Windows supports PnP
 		Install Device
 		Boot up
 		Install driver
@@ -84,7 +84,7 @@ Device and Driver Maintenance
 		MS verify's drivers are good by "signing" them
 		On XP, you can configure signing options
 			Block, Warn, Ignore
-		On Vista/7
+		On Vista/7/8/10
 			It's Warn on 32 bit versions
 			It's Block on 64 bit versions (!)
 
@@ -113,6 +113,8 @@ Backups
 	Vista/7 - Backup and Restore
 		Simpler (less flexible) interface
 		Writes to flash, optical, or network drive (no tape!)
+	Windows 8 Backup is too limited
+	Windows 10 gives us the Windows 7 backup again!
 
 --------------------------------
 System Restore Utilities
@@ -124,11 +126,7 @@ System Restore Utilities
 				Computer Properties | System Protection
 		VERY useful
 	XP's ASR (Automated System Recovery)
-		Backs up boot & system partitions
 		Very long restore process
-			formats boot drive
-			reinstalls OS off XP CD
-			applies ASR backup on top of that
 		Not useful, replaced with image backup/restore on 7
 
 --------------------------------------------
