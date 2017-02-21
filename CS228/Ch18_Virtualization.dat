@@ -37,6 +37,7 @@ Hypervisors
 	Type 1 - run on hardware
 		CPU Features
 			Intel VT-x
+			AMD AMD-V
 		[[VMware ESX!https://en.wikipedia.org/wiki/VMware_ESX]] - Market Leader
 			ESXi 6.0 is the latest version and can be used (minus some features) for free 
 		[[Microsoft Hyper V!https://en.wikipedia.org/wiki/Hyper-V]]
@@ -46,6 +47,14 @@ Common Vendors
 	Microsoft  (Hyper-V, Virtual PC)
 	Oracle VM (VirutalBox)
 	Parallels  (for Mac)
+------------------------------------------
+Networking
+	Virtual Switch  (NIC becomes vNIC)
+	Bridged Networking  (external GW, DHCP)
+	Isolated Segment  (VM Host provides GW, DHCP)
+	Internal Network
+	External Network
+	No Network
 ------------------------------------------
 Process
 	Verify and Setup computer to support Virtualization
