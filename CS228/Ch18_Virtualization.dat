@@ -5,8 +5,10 @@ Ch 18 - Virtualization
 	Hypervisors / Virtual Machine Managers
 
 ------------------------------------------
-Overview
-	Virtualization allows one machine to run multiple OSs simultaneously 
+Virtualization Overview (-NOT- Virtual Reality)
+	Virtualization vs. Emulation
+	Virtualization allows one computer to simulate multiple computers
+		run multiple OSs simultaneously 
 		Host - machine running OSs [[img http://www.101datasolutions.co.uk/wp-content/uploads/2008/06/vmware_esx_diagram.gif]]
 		Guest - OSs running in virtual environment [[img http://www.ni.com/cms/images/devzone/tut/HostedVirtualizationSmall_20090325191230.PNG]]
 	Virtual environments "mimic" hardware using software
@@ -33,9 +35,24 @@ Hypervisors
 		[[VirtualBox!http://en.wikipedia.org/wiki/VirtualBox]] - Sun/Oracle product
 		Others...
 	Type 1 - run on hardware
+		CPU Features
+			Intel VT-x
 		[[VMware ESX!https://en.wikipedia.org/wiki/VMware_ESX]] - Market Leader
 			ESXi 6.0 is the latest version and can be used (minus some features) for free 
 		[[Microsoft Hyper V!https://en.wikipedia.org/wiki/Hyper-V]]
+------------------------------------------
+Common Vendors
+	VMware  (Wordstaktion, ESX, Fusion)
+	Microsoft  (Hyper-V, Virtual PC)
+	Oracle VM (VirutalBox)
+	Parallels  (for Mac)
+------------------------------------------
+Process
+	Verify and Setup computer to support Virtualization
+		Check bios for VT support
+	Install Virtualization Manager
+	Create guest VM
+	Start guest, install apps and services
 ------------------------------------------
 Summary
 	Overview
