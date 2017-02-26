@@ -16,9 +16,9 @@ Terms
 	NIC (Network Interface Card)
 	Client
 	Server
-	Frames (Hardware)
+	Frame/Datagram (Hardware)
 	Packets (Network)
-	Network Segment (wired/wireless)
+	Network Segment/Subnet (wired/wireless)
 	Protocols
 
 ------------------------------------------
@@ -31,10 +31,10 @@ Network Basics
 ------------------------------------------
 Topology
 	Types
-		Bus
-		Ring
-		Star
-		Mesh
+		Bus - single wire, one host at a time
+		Ring - Deterministic
+		Star - Today, by switch
+		Mesh - mixture of LAN topologies
 	Modern Wired Ethernet LANs use Unshielded Twisted Pair (UTP) wired in a physical star topology
 	Signaling (logical) Method is bus
 
@@ -49,20 +49,21 @@ Early Networks
 	Early etherenet used coax in a bus topology
 
 ------------------------------------------
-Modern Wired Ethernet
-	Ethernet Standards
-		10BaseT
-		100BaseT
-		1000BaseT
-		10G
+Cable
+	Ethernet Standards (RJ-45, UTP)
+		10BaseT, 100BaseT, 1000BaseT, 10G
 	UTP Categories
-		CAT 3 - 16Mbps
-		CAT 5 - 100Mbps
-		CAT 5e - 1000Mbps (1Gbps)
-		CAT 6 - 10Gbps
+		CAT 3 - 10Mbps / 16MHz @ 100M 
+		CAT 5 - 100Mbps / 100MHz @ 100M  (16dB)
+		CAT 5e - 1000Mbps / 100MHz @ 100M (20dB)
+		CAT 6 - 1000Mbps / 250MHz 1G @ 100M, 10G @ 55M
+		CAT 6a - 10G @ 100M
+		CAT 7 - 10G / 600MHz @ 100M
+	STP
+		Shielded against lighting, motors, machinery
 	Coax (old)
-		10Base5
-		10Base2
+		10Base5 (Tap)
+		10Base2 (T-Connectors)
 -------------------------------------------
 NICs
 	Modern cards are full duplex
@@ -73,17 +74,26 @@ NICs
 	Status lights
 		Link 
 		Activity
+		Speed
 -----------------------------------------------
 LANs and WANs
-	LAN - Local Area Network
+	LAN - Local Area Network (Segment)
 		A group of networking devices that are physically close
 		All can reach each other directly (i.e. if one broadcasts, they all hear it)
 		Typically one IP subnet
+	LAN (Routed)
+		Physically Close
+		Routed (can't broadcast)
 	WAN - Wide Area Network
 		A geographically dispersed collection of LANs
 		Spans a large area
 		LANs are connected to a WAN using a router
 			Router has both a LAN address and WAN address
+-------------------------------------------------
+Components
+	Hub (old) - Bus, Electrically Connected, dumb
+	Switch - Dedicated connection to each host, smart
+	
 -------------------------------------------------
 TCP/IP
 	Network/Transport layer protocol used on the Internet
