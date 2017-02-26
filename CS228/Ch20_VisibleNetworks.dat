@@ -11,12 +11,23 @@ Ch 20 - Visible Networks
 
 ------------------------------------------
 Terms
+	Host
+	Node
+	NIC (Network Interface Card)
 	Client
 	Server
-	NIC (Network Interface Card)
-	Frames/Packets
+	Frames (Hardware)
+	Packets (Network)
+	Network Segment (wired/wireless)
 	Protocols
 
+------------------------------------------
+Network Basics
+	Two Hosts must agree on a communication format
+	Hardware addresses allow communication within a segment
+		MAC address  (48 bits)
+	Network addresses allow communication between segments
+		Network address (e.g. IP, 32 bits / 128 bits)
 ------------------------------------------
 Topology
 	Types
@@ -25,13 +36,15 @@ Topology
 		Star
 		Mesh
 	Modern Wired Ethernet LANs use Unshielded Twisted Pair (UTP) wired in a physical star topology
-	Signalling (logical) Method is bus
+	Signaling (logical) Method is bus
 
 ------------------------------------------
 Early Networks
-	Early LANs were built using one of two competing technologies
+	Early LANs 
 		Token Ring 
 		Ethernet
+		ARCNet
+		AppleTalk/LocalTalk
 	Ethernet became the dominate technology, and is now ubiquitous
 	Early etherenet used coax in a bus topology
 
@@ -41,12 +54,15 @@ Modern Wired Ethernet
 		10BaseT
 		100BaseT
 		1000BaseT
+		10G
 	UTP Categories
 		CAT 3 - 16Mbps
 		CAT 5 - 100Mbps
 		CAT 5e - 1000Mbps (1Gbps)
 		CAT 6 - 10Gbps
-
+	Coax (old)
+		10Base5
+		10Base2
 -------------------------------------------
 NICs
 	Modern cards are full duplex
