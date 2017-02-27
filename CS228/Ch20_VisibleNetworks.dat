@@ -50,9 +50,12 @@ Early Networks
 
 ------------------------------------------
 Cable
+	Coax (old)
+		10Base5 (Tap)
+		10Base2 (T-Connectors)
 	Ethernet Standards (RJ-45, UTP)
-		10BaseT, 100BaseT, 1000BaseT, 10G
-	UTP Categories
+		10BaseT, 100BaseT, 1000BaseT, 10GBase-T
+	UTP Categories*
 		CAT 3 - 10Mbps / 16MHz @ 100M 
 		CAT 5 - 100Mbps / 100MHz @ 100M  (16dB)
 		CAT 5e - 1000Mbps / 100MHz @ 100M (20dB)
@@ -61,9 +64,18 @@ Cable
 		CAT 7 - 10G / 600MHz @ 100M
 	STP
 		Shielded against lighting, motors, machinery
-	Coax (old)
-		10Base5 (Tap)
-		10Base2 (T-Connectors)
+	Telecommunications Industry Association (TIA), Electronic Industries Alliance (EIA)
+-------------------------------------------
+Connectors  (Terminations)
+	RJ-11 - Two pairs of wires
+		Mostly used for telephone (early 10Base-T)
+	RJ-12 - Three pairs of wires (also called RJ-11)
+		Telephone wall jack
+	RJ-45 - Four pairs of wires
+		Used for network communication
+		10 & 100Mbps use two pair of four (1/2 & 3/6)
+		1000Mbps+ uses all four pairs
+		MATCH THE CONNECTOR TO THE CABLE STANDARD!!!
 -------------------------------------------
 NICs
 	Modern cards are full duplex
