@@ -51,7 +51,7 @@ Early Networks
 ------------------------------------------
 Cable
 	Ethernet Standards (RJ-45, UTP)
-		10BaseT, 100BaseT, 1000BaseT, 10GBase-T
+		10BaseT, 100BaseT, 1000BaseT, 10GBase-T [[img images/cat5_cable.jpg]]
 	UTP Categories*
 		CAT 3 - 10Mbps / 16MHz @ 100M 
 		CAT 5 - 100Mbps / 100MHz @ 100M  (16dB)
