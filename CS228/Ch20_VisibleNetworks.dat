@@ -59,7 +59,7 @@ Cable
 		CAT 3 - 10Mbps / 16MHz @ 100M 
 		CAT 5 - 100Mbps / 100MHz @ 100M  (16dB)
 		CAT 5e - 1000Mbps / 100MHz @ 100M (20dB)
-		CAT 6 - 1000Mbps / 250MHz 1G @ 100M, 10G @ 55M
+		CAT 6 - 1000Mbps / 250MHz 1G @ 100M, 10G @ 55M [[img images/Cat5-Cat6-patch-cable-diffe.jpg]]
 		CAT 6a - 10G @ 100M
 		CAT 7 - 10G / 600MHz @ 100M
 	STP
@@ -68,7 +68,7 @@ Cable
 -------------------------------------------
 Connectors  (Terminations)
 	RJ-11 - Two pairs of wires
-		Mostly used for telephone (early 10Base-T) [[img images/Cat5-Cat6-patch-cable-diffe.jpg]]
+		Mostly used for telephone (early 10Base-T) 
 	RJ-12 - Three pairs of wires (also called RJ-11)
 		Telephone wall jack
 	RJ-45 - Four pairs of wires  
