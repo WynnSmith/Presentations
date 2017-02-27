@@ -50,9 +50,6 @@ Early Networks
 
 ------------------------------------------
 Cable
-	Coax (old)
-		10Base5 (Tap)
-		10Base2 (T-Connectors)
 	Ethernet Standards (RJ-45, UTP)
 		10BaseT, 100BaseT, 1000BaseT, 10GBase-T
 	UTP Categories*
@@ -63,8 +60,25 @@ Cable
 		CAT 6a - 10G @ 100M
 		CAT 7 - 10G / 600MHz @ 100M
 	STP
-		Shielded against lighting, motors, machinery
+		Shielded against EMI (lighting, motors, machinery)
 	Telecommunications Industry Association (TIA), Electronic Industries Alliance (EIA)
+-------------------------------------------
+Cable (continued)
+	Coax (old, 75 ohm)
+		10Base5 (Tap, RG-6, thick)
+		10Base2 (BNC T-Connectors, RG-59, thin)
+		Cable TV / Internet (thick)
+	Fiber Optic
+		Uses light (immune to EMI)
+		Half-duplex
+		Multimode: multiple signals, various angles
+			LED, short distances, 600M
+		Singlemode: single light source
+			Laser, long distance, 2000+ Meters
+		most 62.5/125 multimode (62.5 micron core, 125 cladding)
+		ST (round connector)
+		SC (square connector)
+		LC (dual, uses two cables)
 -------------------------------------------
 Connectors  (Terminations)
 	RJ-11 - Two pairs of wires
