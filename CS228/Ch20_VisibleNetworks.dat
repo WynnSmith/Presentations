@@ -71,9 +71,9 @@ Connectors  (Terminations)
 		Mostly used for telephone (early 10Base-T)
 	RJ-12 - Three pairs of wires (also called RJ-11)
 		Telephone wall jack
-	RJ-45 - Four pairs of wires
-		Used for network communication
-		10 & 100Mbps use two pair of four (1/2 & 3/6)
+	RJ-45 - Four pairs of wires  [[img images/Cat5-Cat6-patch-cable-diffe.jpg]]
+		Used for network communication  [[img images/t568a-b.gif]]
+		10 & 100Mbps use two pair of four (1/2 & 3/6)  
 		1000Mbps+ uses all four pairs
 		MATCH THE CONNECTOR TO THE CABLE STANDARD!!!
 -------------------------------------------
