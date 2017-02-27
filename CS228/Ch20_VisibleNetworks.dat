@@ -66,8 +66,8 @@ Cable
 Cable (continued)
 	Coax (old, 75 ohm)
 		10Base5 (Tap, RG-6, thick)
-		10Base2 (BNC T-Connectors, RG-59, thin)
-		Cable TV / Internet (thick)
+		10Base2 (BNC T-Connectors, RG-59, thin) [[img images/Coax_T-Connector.jpg]]
+		Cable TV / Internet (thick) [[img images/Coax_Cable_F-Type.jpg]]
 	Fiber Optic
 		Uses light (immune to EMI)
 		Half-duplex
@@ -75,7 +75,7 @@ Cable (continued)
 			LED, short distances, 600M
 		Singlemode: single light source
 			Laser, long distance, 2000+ Meters
-		most 62.5/125 multimode (62.5 micron core, 125 cladding)
+		most 62.5/125 multimode (62.5 micron core, 125 cladding) [[img images/Fiber_SC_ST_LC_FC.jpg]]
 		ST (round connector)
 		SC (square connector)
 		LC (dual, uses two cables)
