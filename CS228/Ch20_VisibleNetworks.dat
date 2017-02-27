@@ -11,14 +11,14 @@ Ch 20 - Visible Networks
 
 ------------------------------------------
 Terms
-	Host
-	Node
-	NIC (Network Interface Card)
+	Host / Node / NIC (Network Interface Card)
 	Client
 	Server
 	Frame/Datagram (Hardware)
 	Packets (Network)
-	Network Segment/Subnet (wired/wireless)
+	Network Segment / Subnet (broadcast domain)
+	LAN - networked computers, close to each other
+		Same broadcast area
 	Protocols
 
 ------------------------------------------
@@ -26,6 +26,7 @@ Network Basics
 	Two Hosts must agree on a communication format
 	Hardware addresses allow communication within a segment
 		MAC address  (48 bits)
+		Bridge - connects segments (WiFi, EoP)
 	Network addresses allow communication between segments
 		Network address (e.g. IP, 32 bits / 128 bits)
 ------------------------------------------
@@ -50,6 +51,7 @@ Early Networks
 
 ------------------------------------------
 Cable
+	Telecommunications Industry Association (TIA), Electronic Industries Alliance (EIA)
 	Ethernet Standards (RJ-45, UTP)
 		10BaseT, 100BaseT, 1000BaseT, 10GBase-T [[img images/cat5_cable.jpg]]
 	UTP Categories*
@@ -61,7 +63,7 @@ Cable
 		CAT 7 - 10G / 600MHz @ 100M
 	STP
 		Shielded against EMI (lighting, motors, machinery)
-	Telecommunications Industry Association (TIA), Electronic Industries Alliance (EIA)
+	Ethernet over Power - via AC Outlets
 -------------------------------------------
 Cable (continued)
 	Coax (old, 75 ohm)
