@@ -1,6 +1,5 @@
 -------------------------------------------
 Ch 21 - LANs
-	Fiber Optic Cable
 	Network Devices
 	Cabling
 	Protocols
@@ -8,15 +7,13 @@ Ch 21 - LANs
 	TCP/IP Tools & Services
 	Misc
 -------------------------------------------
-Fiber Optic Cable
-	UTP is limited to 100 meters per leg
-	Fiber Optic Cable designed for LANs can go much further (2000 meters)
-	Fiber is more expensive to install then UTP so it's typically limited to backbones
-	General Cable Types
-		single mode - Used for long distances (miles)
-		multi mode - Used in LANs
-	There are numerous connector types
-		SC, ST, MT-RJ	
+Network Basics
+	Two Hosts must agree on a communication format
+	Hardware addresses allow communication within a segment
+		MAC address  (48 bits)
+		Bridge - connects segments (WiFi, EoP)
+	Network addresses allow communication between segments
+		Network address (e.g. IP, 32 bits / 128 bits)
 -------------------------------------------
 Network Devices
 	Hubs 
@@ -31,14 +28,6 @@ Network Devices
 		"headless computer" (no mouse/keyboard/monitor) that manages and makes available disk drives to networked computers
 		Configured via a web browser
 --------------------------------------------
-Cabling
-	Telecom Room
-		Equipment racks
-			Patch panel / 110 block / punchdown tool
-	Horizontal Cabling
-	
-
--------------------------------------------
 TCP/IP Parameters
 	Parameters
 		IP Address
