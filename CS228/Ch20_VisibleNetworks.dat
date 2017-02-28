@@ -20,15 +20,6 @@ Terms
 	LAN - networked computers, close to each other
 		Same broadcast area
 	Protocols
-
-------------------------------------------
-Network Basics
-	Two Hosts must agree on a communication format
-	Hardware addresses allow communication within a segment
-		MAC address  (48 bits)
-		Bridge - connects segments (WiFi, EoP)
-	Network addresses allow communication between segments
-		Network address (e.g. IP, 32 bits / 128 bits)
 ------------------------------------------
 Topology
 	Types
