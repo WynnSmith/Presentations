@@ -84,6 +84,20 @@ Connectors  (Terminations)
 		1000Mbps+ uses all four pairs
 		MATCH THE CONNECTOR TO THE CABLE STANDARD!!!
 -------------------------------------------
+Structured Cabling
+	Telecommunication Room
+		Central location for all cable terminations
+		Equipment racks - 19" rack
+			Patch panel / 110 block / punchdown tool
+			Height - 1U = 1.75"
+			Equipment typically 1U, 2U, or 4U (7")
+	Horizontal Cabling
+		from Telecom racks to wall plates
+		a run - typically solid-core wire
+	Drop Cables / Patch Cables
+		from wall plate to PC or phone
+		typically stranded cable
+-------------------------------------------
 NICs
 	Modern cards are full duplex
 	Cables connect via RJ45 jacks/connectors
