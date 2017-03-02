@@ -16,12 +16,12 @@ Network Basics
 		Network address (e.g. IP, 32 bits / 128 bits)
 -------------------------------------------
 Network Devices
+	Bridges
+		Connect different types of mediums (wireless to wired)
 	Hubs 
 		Simple Repeaters; all devices share available bandwidth
 	Switches
 		Smarter than hubs; each computer-to-computer connection gets full bandwidth
-	Bridges
-		Connect different types of mediums (wireless to wired)
 	Routers
 		Connect LANs, route packets based on IP addresses
 	NAS - Network Attached Storage devices
@@ -35,21 +35,37 @@ TCP/IP Parameters
 		Gateway
 		DNS Server Addresses
 	They can be configured
-		statically
-		vIA DHCP
-		via APIPA
+		statically  (i.e. manual)
+		DHCP - Dynamic Host Configuration Protocol
+		APIPA - Automatic Private IP Addressing
 --------------------------------------------
 TCP/IP Tools & Services
 	Tools
-		IPConfig
+		IPConfig/Ifconfig
 		Ping
 		NSLookup
-		TraceRoute
+		Tracert/TraceRoute
 		Net
+		Netsh
 	Services
-		DNS
-		WINS
 		DHCP
+		WINS
+		DNS
+------------------------------------------
+Addressing
+	IPv4 - 32 bit address
+		Dotted Decimal notation:  192.168.0.1
+		Loopback:  127.0.0.1
+		Subnet Mask:  255.255.255.0
+	IPv6 - 128 bit address
+		Hextet notation:  2001:0000:0000:3210:0800:200c:00cf:1234
+		drop leading zeros: 2001:0:0:3210:800:200c:cf:1234
+		:: replace one set of zeros:  2001::3210:800:200c:cf:1234
+		Loopback:  ::1
+		Subnet suffix:  /64
+	IPv6 interfaces typically use multiple addresses
+		Link-local (automatic, non-routable, fe80::)
+		Global address (assigned, public, 2xxx:)
 ------------------------------------------
 Misc
 	Resource Sharing
