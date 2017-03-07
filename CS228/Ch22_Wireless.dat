@@ -5,22 +5,21 @@ Ch 22 - Wireless Networking
 	Wi-Fi Security
 	Wi-Fi Modes
 	Wi-Fi Misc
+	WiGig
 	Bluetooth
 	Cellular
-	WiGig
 	Infrared
 -------------------------------------------
 Wireless Network Types
 	802.11 (Wi-Fi)
 		Used in LANs in place of UTP
-		Slower, but cheaper to install
 	Cellular
 		Used for mobility
 		3G, 4G
 	Bluetooth
 		Used to connect peripherals to computer
 	Infrared
-		Line-of-sight LED communication
+		Line-of-sight, LED communication
 
 -------------------------------------------
 802.11 Frequencies 
@@ -39,116 +38,103 @@ Wireless Network Types
 		Wireless USB
 		Up to 7Gbps 
 --------------------------------------------
-802.11 Standards
-	Every few years a new 802.11 standard came out which improved either range, speed, or both
-		802.11 (1997, obsolete)
-		802.11a (1999, rare)
-		802.11b (1999)
-		802.11g (2003)
-		802.11n (2009)
-		802.11ac (2013)
-		802.11ad (2013)
+802.11 Overview (IEEE)
+	Access Point - Provides Wi-Fi access
+	SSID - service set identifier (network name)
+	CSMA/CA - Carrier Sense, Multiple Access / Collision Avoidance
+		Request to Send (RTS) / Clear to Send (CTS)
+	Antenna types - directional, Omni-directional
+		
+	Scanner
+		InSSIDer
+
 --------------------------------------------
 802.11a
-	Utilizes OFDM in 5 GHz band
-	Good throughput	
-		rated: 54 Mpbs
+	5 GHz band, 54 Mbps
 		actual: well under 20 Mbps
 	Poor range
-	Products:
-		shipped late
-		had poor performance
-		were expensive
+	Relatively poor performance
+	Early products were expensive
 	Little market acceptance
-
 -------------------------------------------
 802.11b
-	Utilizes DSSS in 2.4 GHz band
-	Fair throughput 
-		rated: 11 Mbps
+	2.4 GHz band, 11 Mbps
 		actual: 6 Mbps
 	Decent range
-	Products
-		Shipped the same time as 802.11a
-		Worked well
-		had adequate performance
 	Gained fairly broad acceptance
-
 --------------------------------------------
 802.11g
-	Utilizes OFDM in 2.4 GHz band
-	Good througput
-		rated: 54 Mbps
+	2.4 GHz band, 54 Mbps
 		actual: 25 Mpbs @ 30m
-	Products
-		shipped on time
-		worked well
-		had good performance
 	Widely adopted
-
 -------------------------------------------
 802.11n
-	Utilizes OFDM + MIMO
-		MIMO - Multiple I/O (antennas)
-	Uses both 2.4 and 5 GHz for backwards compatibilty
-	Uses 5 GHz band in "pure" n network
-	Great throughput
+	Both 2.4 and 5 GHz
 		rated: 100-200 Mbps
-	Products
-		shipped before draft was finalized
-		Now experiencing wide adoption
+	Utilizes MIMO
+		MIMO - Multiple I/O (antennas)
+	Uses 5 GHz band in "pure" 'n' network
+	Wide adoption
 -------------------------------------------
 802.11ac
-	[[overview (from www.extremetech.com)!http://www.extremetech.com/computing/160837-what-is-802-11ac-and-how-much-faster-than-802-11n-is-it]]
-	[[info from Wikipedia!https://en.wikipedia.org/wiki/IEEE_802.11ac]]
+	5 GHz, 500 Mbps/link (stream)
+		realistic: 1.3 Gbps (ideal setting)
+		Many conflicts degrade performance to 2X 802.11n
+		dual Gig cables
+	MIMO
+	Focused antennas
+	Channel Widths: 20, 40, 80, 160 MHz
+	[[Five things to know!http://http://www.zdnet.com/article/gigabit-wi-fi-802-11ac-is-here-five-things-you-need-to-know/ ]]
+	
 ---------------------------------------------
-60 GHz band - WiGig - 802.11ad
+802.11ad - 60 GHz band - WiGig
 	Newest, not in book
 	Up to 10 Meters (Essentially line-of-sight}
 	Wireless USB
-	Up to 7Gbps 
+	Up to 7Gbps (ideal setting)
 	Video peripherals
 	"External" data bus
 	Gaming, VR, Entertainment Room
 -------------------------------------------
-WiFi Security
+Wi-Fi Security
 	Authentication
-		Is the computer/person allowed to connect?
+		Is the node allowed to connect?
 		Handled either via 
-			authentiation Server (Radius Server)
+			authentiation Server (Radius Server, 802.1x)
 			or pre-shared key (common key for everyone)
 	Encryption
-		Scrambling the data so intercepted messages can't be read
-		When encryption methods are cracked, new ones are devised
-	Additional measure:
-		Mac Address Filtering
-			Limits who can connect by MAC address
+		Scrambling the data
+	Mac Address Filtering
+		Limits who can connect by MAC address
 
 ---------------------------------------------
 Data Encryption
 	WEP - Wired Equivalent Privacy
 		40-128 bit key entered on clients and WAP
-		Introduced in 1999, can now easily be cracked
-	WPA-Enterprise - Wi-Fi Protected Access
-		Requires an authentication server, which distributes keys to each user
-	WPA-Personal (PSK) - Pre-Shared Key version
-		Designed for home and small offices
-		All users given same key
-		Key is derived from passphrase	
-			20+ random chars is best
-
+		Easily cracked
+	WPA - Wi-Fi Protected Access
+		Temporal Key Integrity Protocol (TKIP)
+		Extensible Authentication Protocol (EAP)
+		WPA-Enterprise
+			Requires an authentication server
+		WPA-Personal 
+			Designed for home and small offices
+			All users given same key
+			Key is derived from passphrase
 ---------------------------------------------		
 Data Encryption (continued)
 	WPA2-Enterprise (802.11i)
 		Implements all mandatory elements of 802.11i
 		Utilizes AES (Advanced Encryption Standard)
 		Considered fully secure (when using AES)
-	WPA2-Personal (PSK)
-		Designed for home and small offices
-		No authentication server required
+	WPA2-Personal 
+		Pre-Shared Key (PSK)
+		Designed for SOHO, No server required
 		All users given same key
 		Key is derived from passphrase
 			20+ random chars is best
+	WPS - "Just push the button" (easily hacked)
+		Avoid products which can't disable WPS
 ------------------------------------------
 WAP Configuration
 	Most Wireless Access Points support
@@ -169,26 +155,19 @@ WiFi Modes
 		Most common mode
 	Ad Hoc
 		Peer to Peer (no WAP)
+		CompTIA: "Limited Impromptu Networks"
 		Uses IBSS (Independent BSS)
-----------------------------------------------
-Misc
-	WiFi Uses CSMA/CA
-		Carrier Sense 
-		Multiple Access
-		Collision Avoidance
-	Antenna types
-		Omni-directional
-		directional
-	Scanner
-		InSSIDer
 --------------------------------------
 Bluetooth
-	Used primarly to connect peripherals to computers
-	Can be used to connect computers (PAN)
-	Range is a few meters
+	2.4 GHz, Frequency Hopping
+	Most often used in pairing mode (point-to-point)
+	Can be used to connect computers (PAN, 802.15)
+	Range versions (1M, 10M, 100M)
 	Versions
-		1.x - Around 1 Mbps
-		2.x - Around 3 Mbps
+		1.x ~ 1 Mbps
+		2.x ~ 3 Mbps
+		3.x ~ 24 Mbps (high speed, 802.11)
+		4.x ~ 25 Mbps (low energy)
 ------------------------------------------
 Cellular
 	Utilizes cellular network for internet connection
@@ -196,13 +175,18 @@ Cellular
 		Cellular NICs
 	3G (3rd Generation) Standards
 		CDMA - Code Division Multiple Access
-			Used primarily in North America
 		GSM - Global System for Moble devices
-			Worldwide standard
 	4G (4th Generation) Standards
 		Mobile WiMax
 		LTE
-		
+------------------------------------------
+Infrared
+	IrDA (Infrared Data Association)
+		4 Mbps, 1M
+	No security, point-to-point, ad hoc
+	Line-of-sight, LED communication
+	Printers, PDA, Laptop, Phone
+	Now, often used for personal remote control
 ------------------------------------------
 Summary
 	Wireless Network Types
