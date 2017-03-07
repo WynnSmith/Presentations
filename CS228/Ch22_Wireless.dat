@@ -2,20 +2,16 @@
 Ch 22 - Wireless Networking
 	Wireless Network Types
 	802.11 standards
-		802.11a
-		802.11b
-		802.11g
-		802.11n
-		802.11ac
-	WiFi Security
-		Data Encryption
-	WiFi Modes
-	WiFi Misc
+	Wi-Fi Security
+	Wi-Fi Modes
+	Wi-Fi Misc
 	Bluetooth
 	Cellular
+	WiGig
+	Infrared
 -------------------------------------------
 Wireless Network Types
-	802.11 (WiFi)
+	802.11 (Wi-Fi)
 		Used in LANs in place of UTP
 		Slower, but cheaper to install
 	Cellular
@@ -23,6 +19,8 @@ Wireless Network Types
 		3G, 4G
 	Bluetooth
 		Used to connect peripherals to computer
+	Infrared
+		Line-of-sight LED communication
 
 -------------------------------------------
 802.11 Frequencies 
@@ -36,7 +34,10 @@ Wireless Network Types
 		[[Frequencies!http://en.wikipedia.org/wiki/List_of_WLAN_channels ]] are non-standard worldwide
 		14 possible channels, not all availabe in US, and channel width affects available channels
 		Was more difficult to get good range 
-
+	60 GHz band - WiGig - 802.11ad
+		Up to 10 Meters (Essentially line-of-sight}
+		Wireless USB
+		Up to 7Gbps 
 --------------------------------------------
 802.11 Standards
 	Every few years a new 802.11 standard came out which improved either range, speed, or both
@@ -46,7 +47,7 @@ Wireless Network Types
 		802.11g (2003)
 		802.11n (2009)
 		802.11ac (2013)
-		
+		802.11ad (2013)
 --------------------------------------------
 802.11a
 	Utilizes OFDM in 5 GHz band
@@ -98,10 +99,18 @@ Wireless Network Types
 		Now experiencing wide adoption
 -------------------------------------------
 802.11ac
-	Newest, not in book
 	[[overview (from www.extremetech.com)!http://www.extremetech.com/computing/160837-what-is-802-11ac-and-how-much-faster-than-802-11n-is-it]]
 	[[info from Wikipedia!https://en.wikipedia.org/wiki/IEEE_802.11ac]]
 ---------------------------------------------
+60 GHz band - WiGig - 802.11ad
+	Newest, not in book
+	Up to 10 Meters (Essentially line-of-sight}
+	Wireless USB
+	Up to 7Gbps 
+	Video peripherals
+	"External" data bus
+	Gaming, VR, Entertainment Room
+-------------------------------------------
 WiFi Security
 	Authentication
 		Is the computer/person allowed to connect?
@@ -199,13 +208,9 @@ Summary
 	Wireless Network Types
 	WiFi Modes
 	WiFi Security
-		Data Encryption
 	802.11 standards
-		802.11a
-		802.11b
-		802.11g
-		802.11n
 	WiFi Misc
 	Bluetooth
 	Cellular
+	Infrared
 --------------------------------------------
