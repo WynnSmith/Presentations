@@ -66,51 +66,70 @@ ISDN (Dial-up)
 
 -------------------------------------------
 DSL - Digital Subscriber Line
-	Allows Phone companies to provide high-speed internet access
+	High-speed internet via Phone company
 	Uses 1-pair Voice grade lines
 	Data is sent at higher frequencies then voice
 	Flavors: 
 		ADSL - Downloads faster than upload
 		SDSL - upload/download speeds are the same
 	Requires 
-		DSL Modem at customer's premises
-		splitter at each customer phone jack
+		DSL Modem (Unfiltered ) in the home
 		DSL Access Multiplier (DSLAM) at central office
-	1.5 - 3 Mbps download
+		Filter at each customer phone jack
+	3-15 Mbps download
+	18,000 feet limit (~3 miles)
 
 -------------------------------------------
 Cable
-	Allows cable companies to provide high-speed internet access
+	High-speed internet via cable company
 	Trunk Lines run past homes
-	Drop cables (RG-59) run to your house
-	Requires Cable Modem in the home
+	Drop cables (RG-6 or RG-59) run to your house
+	Cable Modem in the home
 	Bandwidth is shared on Trunk Lines
-	1.5 - 6+ Mbps down
+	6-100+ Mbps down
 
+-------------------------------------------
+Fiber
+	FTTN - Fiber to the Node (to the Neighborhood)
+	FTTP - Fiber to the Premises
+	Mbps to Gbps bandwidth
 -------------------------------------------
 Wireless
 	Cellular 3G 
 		Allows internet access via cell phone
-		2-3 Mbps
-	WiMax (802.16)
-		Sold as "Clear" here in the Portland Area
-		1-4 Mbps
+		3G - 2-4 Mbps  
+		4G - 4-12 Mbps  
 	Satellite
 		Utilizes small dish and expensive satellite
 		Has small delay (~7/10 sec) known as satellite latency
 		Typically uses phone lines for upstream
 
 -------------------------------------------
+SOHO Router
+	Combo Router & Switch, PC to Switch
+	Router recieves IP from ISP
+	Switch IP is settable
+	Connect via Web Browser to Switch's default IP
+		Change Name & Password
+		Set Switch IP 
+	
+-------------------------------------------
 Services
 	Common Internet Services and their application layer protocols
-		WWW (HTTP)
-		email (SMTP & POP) 
+		WWW (HTTP/80, HTTPS/443)
+		email (POP3/110, IMAP/143, SMTP/25) 
+		Remote (telnet/23, SSH/22)
 		Newsgroups (NNTP)
-		FTP (FTP)
-		Voice over IP (VOIP)
-	Terminal Emulation
-		telnet (command line)
-		Remote Desktop & Remote Assistance (GUI)
+		File Transfer (FTP/20-21, SFTP-22)
+		Remote Desktop Protocol (RDP/3389)
+	Others
+		Voice over IP - VoIP (SIP/5060)
+		Dynamic Name Service (DNS/53)
+		Dynamic Host Configuration Protocol (DHCP/67-68)
+		Directory Service (LDAP/389)
+		Network Management (SNMP/161)
+		Windows File System (SMB/445-137-138-139)
+		Apple File Service (AFP/548-427)
 ------------------------------------------
 Summary
 	Overview
