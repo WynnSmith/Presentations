@@ -124,7 +124,7 @@ Services
 		Remote Desktop Protocol (RDP/3389)
 	Others
 		Voice over IP - VoIP (SIP/5060)
-		Dynamic Name Service (DNS/53)
+		Domain Name Service (DNS/53)
 		Dynamic Host Configuration Protocol (DHCP/67-68)
 		Directory Service (LDAP/389)
 		Network Management (SNMP/161)
