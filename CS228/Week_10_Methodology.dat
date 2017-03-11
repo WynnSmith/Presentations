@@ -1,5 +1,51 @@
 Week 10 Troubleshooting Methodology
-
+	We experienced unnecessary trouble last week
+	Quit Clicking
+	Quit Keystroking
+	Quit Dismissing Dialog Boxes
+	Troubleshooting Methodology
 ------------------------------------------
-Overview
-	Storage Mechanism [[img images/Drives.jpg]]
+Troubleshooting Overview (Methodological)
+	*Identify the problem (symptom, (i.e. a goal))
+	Establish a theory of probable cause
+	Test the theory 
+	*Plan of Action (methodical plan)
+	Verify
+	Document
+------------------------------------------
+Methodological Goal Seeking (example PowerShell)
+	Designed for a methodical plan of action
+	Designed for a series of experiments
+	Failures are part of the plan
+	Keeps history of your experiments
+	Lets you identify, Keep, & assemble successful experiments
+------------------------------------------
+Practical Issues
+	Be the tech, not the novice
+	Try simple proofs first, expecting failure
+	Reboot - Reestablish starting place
+	Hardware - Cold Boot vs Warm Boot
+	Configuration Files owned by System
+	Run As Administrator
+------------------------------------------
+HID Devices
+	Different from other devices
+		Event Focus (Which app or system)
+		Event Queing  (Which app or system)
+	Event Problems
+		Event theft
+		Dropped events
+		Out-of-sequence events
+	Therefore, PREMATURE EVENTS ARE BAD
+------------------------------------------
+Authentication Problem
+	Who is doing the authenticating?
+	Remote vs Server
+	Login 
+		serverName\UserName
+		UserName@ServerName
+	Domain
+	Peer-to-peer
+	HomeGroup  (peer trust)
+	
+
