@@ -8,72 +8,106 @@ Ch 25 - Mobile Devices (smartphones & tablets)
 	Networking
 	Synchronization
 	Security
-
 ------------------------------------------
 Overview
-	Categories
+	Types
+		PDAs
 		Smartphones
 		Tablets
+		Phablets
+		E-Readers
+		Wearables 
+			Smart Watches
+			Fitness
+			Glasses
+			Headsets
 	Operating Systems
-		iOS (all apple products)
+		iOS (all Apple products)
 		Android (almost all non-apple products)
-		Windows RT ("Windows" tablets)
+		Windows RT (Microsoft)
+		Embedded Linux
 	Single/Multi user
 		iOS devices are "single user"
-		Latest Android devices (and Windows RT) are "muli user"
+		Latest Android devices (and Windows RT) are "multi user"
 			Apps are tied to user account, not shared
 ----------------------------------------------
 Screen Technology
-	LCD screen
-		with a capactive touchscreen over it
+	LCD screen technology
+		Twisted nematic (TN)
+		In-Plane Switching (IPS)
+		OLED vs Backlight
+	Touch
+		capactive touchscreen - Newer
 			Uses electrical charge on your body to determine touch location
 			Won't work with stylus or gloved hand
-			Current technology
-		with resistive touchscreens 
+		resistive touchscreens  - Older
 			Responded to pressure; stylus was required
-			Older, less common technology
 ------------------------------------------
 User Interface
-	Touch interface - recognizes a single touch
+	Touch interface 
 		tap (or doubletap)
 		swipe
-	Multitouch interface - recognizes two or more simultaneous touches
-		pinch or zoom
+		Multitouch interface gesture
 	Accelerometers allow screen to always be displayed upright regardless of orientation of device
 	Gyroscopes allow additional detection of device position (leaning forward or backward)
-	On-screen keyboards are displayed when required
-	Physical Keyboards can sometimes be added (bluetooth)
-	Mice are not an option
+	GPS
+	Camera
+	Microphone
+	On-screen keyboards 
+	Bluetooth for Physical Keyboards and devices
+	Voice Assistant - Siri, OK Google, Cortana
 ------------------------------------------
 Applications
 	Applications are called "Apps"
 	Downloaded from an "App store"
 	All apps for iOS must come from Apple's app store
-		Closed/Single source
+		Closed source
 		Apple controls what apps can be run
 		Limits choice, but also improves quality and eliminates malware
 	Apps for android can come from several stores
 		Open source
 		Android, Amazon, Google, YAMM, many others
 		More choices, but possibly not better...
+	Cloud backup/storage services are typically provided
+------------------------------------------
+Uses
+	Messaging
+	Phone
+	Mobile Payment System
+	GEO Navigation
+	Proximity (NFC)
+	"My World" Access
+	Tethering
+	Sync - Mobile "My World"
+------------------------------------------
+Identifiers
+	IMEI - International Mobile Equipment Identity
+		15 digits - identifies device (GSM)
+	ICCID - Integrated Circuit Card Identity
+		Identifies SIM
+	IMSI - International Mobile Subscriber Identity
+		Represents the actual user of the SIM
+		Not assessible by the phone
+	SIM - Subscriber Identity Module
+		Contains ICCID & IMSI
 ------------------------------------------
 Expandabilty
 	Hardware is typically not upgradable
 	Very limited connectivity 
-	iOS devices have one proprietary connector for
-		charger
-		cameras (with special adapter)
-		video mirroring (with special adapter)
-	Android devices are similar
-		Although they may also have microSD slots for added storage
-	Bluetooth is common (for external kaeyboards)
+	iOS - proprietary connector for power & I/O
+	Android devices may have microSD slots
+	Micro USB - (USB "Type-C" in future)
+	Micro-HDMI, DisplayPort
+	Bluetooth is common (for external keyboards)
 ------------------------------------------
 Networking
 	Network connectivity would be accomplished via
 		802.11 (wireless LAN)
 		Cellular (3g/4g)
 			Typically requires additional account/charges via cell service provider (verizon/ATT/etc)
-	Cloud backup/storage services are typically provided
+	NFC - Near Field Communication
+	WiFi Calling - VoIP
+	VPN - Secure access to a managed network
 ------------------------------------------
 Synchronization
 	Mobile devices can sync with either
