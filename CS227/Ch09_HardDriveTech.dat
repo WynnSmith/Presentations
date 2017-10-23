@@ -133,7 +133,7 @@ Interfaces/Busses
 			Serial Attached SCSI, (SAS)
 			Fiber Channel (typically only on Servers)
 			USB
-		SDD
+		SSD
 			IDE (PATA - Parallel ATA)
 			SATA (Serial ATA)
 			USB
