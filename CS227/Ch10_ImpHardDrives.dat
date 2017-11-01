@@ -116,7 +116,7 @@ Windows File Systems
 		FAT32 supports partitions up to 2 TB
 			Windows limited to format FAT up to 32GB
 			Supports File Sizes up to 4GB
-		exFAT supports files up to 16EB, volumes to 128PB
+		exFAT supports files up to 16EB, partitions to 64ZB
 	NTFS
 		Introduced with NT, and supported by all versions of NT (NT/2K/XP/Vista/7/10)
 		Very similar to UFS (Unix File System)
