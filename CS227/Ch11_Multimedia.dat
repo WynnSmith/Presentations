@@ -26,19 +26,29 @@ Digitizing Sound Waves
 		8-to-14 data encoding (14 bits to encode 8 bits)
 
 --------------------------------------------
-Sound File Formats
+Audio File Types
 	Sound can be stored in a variety of file formats [[img images/Audio_Formats.jpg]]
 	To process/interpret a sound file requires a codec
-		On Windows 7, use [[Media player!http://windows.microsoft.com/en-us/windows/codecs-frequently-asked-questions#codecs-frequently-asked-questions=windows-7]]	to find what codecs are installed (warning: technical info ahead!)
-	Uncompressed formats		[[img images/Audio_Data_Sizes.gif]]
-		.wav
-			common on PCs
-			large file size
-		.midi - stores musical info (notes, durations, instruments, etc..), not sampled sound waves
-			very small files	
+		On Windows, use [[Media player!http://windows.microsoft.com/en-us/windows/codecs-frequently-asked-questions#codecs-frequently-asked-questions=windows-7]] to find what codecs are installed
+	RAW Audio
+		PCM - Pulse-Code Modulation	[[img images/Audio_Data_Sizes.gif]]
+	Lossless Compression
+		Waveform is fully recoverable
+	Lossy Compression
+		Waveform is mathematically reproduced
+	Music Data
+		Musical Instructions
+--------------------------------------------
+RAW Sound Formats (lossless)
+	wav, aiff, DVD, HDMI
+		Raw Samples
+		Large file size
+	midi - Music Data
+		notes, durations, instruments, etc..
+		Small files - not samples
 	Uncompressed sound files can be quite large, therefore numerous compression algorithms and file formats have been created
 -----------------------------------------
-Lossless Sound File Formats
+Compressed Lossless Sound Formats
 	Lossless Formats use math magic to alter the data to store it in less space
 	Some common Lossless(no info is lost) formats are: 
 		ALAC (Apple Lossless Audio Codec)
