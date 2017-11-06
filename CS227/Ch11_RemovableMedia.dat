@@ -59,10 +59,10 @@ Optical Disks
 	
 --------------------------------------------
 Optical Drives
-	Fit in standard 5 1/4" bay		[[img http://www.txcesssurplus.com/catalog/16659-Philips-DT490-Front.jpg]]
+	Fit in standard 5 1/4" bay		
 	Both PATA and SATA are available
 		Most new ones are SATA
-	New drives typically process both CDs and DVDs
+	New drives typically process CDs, DVDs, and Blu-ray
 	Types	
 		CD-ROM, CD-R, CD-RW
 		DVD-ROM, DVD-R, DVD+R, DVD-RW, DVD+RW, DVD+-RW
@@ -71,20 +71,21 @@ Optical Drives
 
 --------------------------------------------
 Miscellaneous
-	Vista/7 can burn both CDs and DVDs
-	Windows 7 also enables you to burn an iso image
-		An .iso file is an exact image of an optical disk saved as a disk file
-		To burn the .iso to a CD/DVD, right click on it and select "burn disk image".
+	Windows can burn both CDs and DVDs
 	Several 3rd party packages are available 
 		(Not recommended. Often change default settings.) 
 		NERO
 		Roxio
+		PowerISO
 		etc..
 	Lightscribe lets you burn a "label" onto the label side of a (lightscribe) CD or DVD
 	autorun.inf file is used to provide autoplay/autorun functionality
 		See [[this link!http://www.techrepublic.com/blog/windows-and-office/how-do-i-create-the-autoruninf-file-for-my-cds-and-dvds/]] for details
-	
-	
+	ISO
+		An .iso file is an exact image of an optical disk saved as a disk file
+		Windows ADK provides ISO creation tools
+		Windows allows you to burn an iso image
+			Right-click on the ISO and select "burn disk image".
 --------------------------------------------
 Summary
 	Floppy Drives
