@@ -49,18 +49,19 @@ RAW Sound Formats (lossless)
 	Uncompressed sound files can be quite large, therefore numerous compression algorithms and file formats have been created
 -----------------------------------------
 Compressed Lossless Sound Formats
-	Lossless Formats use math magic to alter the data to store it in less space
-	Some common Lossless(no info is lost) formats are: 
+	Lossless Formats use compression algorithms to store data in less space
+	(no info is lost) 
+	Some common Lossless formats are: 
 		ALAC (Apple Lossless Audio Codec)
 			Originally proprietary, now open source
 			stored in .mp4 container
-		.wma lossless
+		wma lossless
 			proprietary to Microsoft
 		others...
-	Higher compression rates can be achieved via lossy formats, so they are more common for downloading
+	Medium compression rates can be achieved via lossy formats, so they are more common for downloading
 ------------------------------------------
 Lossy Sound File Formats
-	Lossy Formats discard less audible or meaningful sounds and then use math magic to alter the data to store it in less space
+	Lossy Formats discard less audible or meaningful sounds and then use mathematical algorithms to rerpresent the data and store it in less space
 	Common Lossy Formats
 		[[MP3!http://en.wikipedia.org/wiki/Mp3]] (MPEG-1 Layer 3) 
 			common for downloading
@@ -95,8 +96,8 @@ Sound Card Jacks
 	S/PDIF Connector [[img http://images.americas.creative.com/images/products/inline/1010_card_tour.jpg]]
 		allows direct digitial connection to 5.1/7.1 speaker system 
 	Examples  (need updates)
-		[[Example1!http://www.newegg.com/Product/ShowImage.aspx?CurImage=29-128-001-01.jpg&Image=29-128-001-02.jpg%2c29-128-001-01.jpg&S7ImageFlag=0&WaterMark=1&Item=N82E16829128001&Depa=1&Description=StarTech%20PCISOUND4CH%20Sound%20Card]]
-		[[Example2!http://www.newegg.com/Product/ShowImage.aspx?CurImage=29-126-004-07.jpg&Image=29-126-004-04.jpg%2c29-126-004-05.jpg%2c29-126-004-07.jpg%2c29-126-004-06.jpg%2c29-126-004-03.jpg%2c29-126-004-02.jpg&S7ImageFlag=0&WaterMark=1&Item=N82E16829126004&Depa=1&Description=PPA%201417v%20Sound%20Card]]
+		[[Example1!https://www.newegg.com/Product/Product.aspx?Item=9SIA1JM1GG3139]]
+		[[Example2!https://www.amazon.com/Creative-Blaster-Audigy-Performance-Headphone/dp/B00EO6X7PG/ref=sr_1_fkmr1_1?ie=UTF8&qid=1509933722&sr=8-1-fkmr1&keywords=studio+audio+capture+pcie]]
 
 ---------------------------------------------
 Speaker Standards	
@@ -116,7 +117,7 @@ Sound Card installation
 	Since sound is a basic requirement, many motherboards have integrated sound cards
 	You may want to install a separate card for better sound
 	If upgrading [[img http://img.tomshardware.com/us/2001/07/25/bios_tuning/io_2.gif]]
-		Disable the on-board sound in the BIOS [[img http://h10025.www1.hp.com/ewfrf-JAVA/Doc/images/993/c00377507.jpg]]
+		Disable the on-board sound in the BIOS 
 		Install the new card & drivers
 		Plug speakers into the proper jacks in new card
 		Enjoy
@@ -149,7 +150,7 @@ Video Codecs
 		WMA, WMV, H.263, Vorbis, Theora, etc..
 		[[Codec list from Wikipedia!http://en.wikipedia.org/wiki/List_of_codecs]]
 	To see which are installed
-		Win 7
+		Windows
 			Start Windows Media player
 			Ctrl M, then Help->About
 			Tech Support link, scroll down...
