@@ -18,18 +18,19 @@ Business Computers (as per CompTIA)
 		Requires lots of RAM and decent CPU
 	Media Workstation
 		Used for editing video or 3-D modelling
-		Requires lots of RAM and Disk space, and good video card
+		Requires lots of RAM and Disk space
+		good video card & Monitor (gamut / resolution)
 --------------------------------------------
 Specialized Consumer PCs
 	Home Server
 		Provides Centralized Storage space
 		Provides Media Streaming, File Sharing, Printing
-		Microsoft sells a version of Windows for this (Home Server)
+		Microsoft low-end Server $350 (Essentials, Home, SBS)
 		A NAS (network attached Storage) box might also suffice.
 	Home Theater PC
 		Enables you to play music, watch TV and movies
 		Connected to TV (or projector) and surround sound speakers	
-		Microsoft provides software for this (Media Center)
+		Microsoft Media Center (WinXP, Vista, 7, 8)
 		There are also 3rd party versions (XBMC or Plex)
 	Gaming Machine
 		Runs latest video games well
