@@ -12,10 +12,12 @@ Ch 19b - Video Cards
 ------------------------------------------
 Basics
 	Video cards generate and Output images to a display
-	Video
-		Deals with lots of information
-		requires very high bandwidth
-		requires lots of processing power
+	Video is defined by
+		Display modes
+		Motherboard slot
+		GPU (integrated vs separate)
+		Video memory
+		Connections
 	Video card Contains 
 		Video Circuitry
 			Evolved into specialized GPU
@@ -24,6 +26,17 @@ Basics
 			Typically faster than system RAM
 			DDR, DDR2, GDDR3/4/5
 
+--------------------------------------------
+Modes
+	Text Mode (typically monochrome, used by BIOS)
+		80 characters x 24 rows = 1920 Bytes
+	Graphics Mode
+		Monochrome
+		Fixed Color (2-16 bits per pixel)
+		Palette (8 bits per pixel / 24 bit Palette)
+			VGA 640 x 480 = 307KB
+		Deep Color (24+ bits per pixel)
+			1920 x 1080 x 3 = 6,220,800 Bytes
 --------------------------------------------
 Busses / Expansion Slots
 	PCI
@@ -78,10 +91,10 @@ CompTIA Tested Graphics Modes
 	WUXGA - 1920 x 1200, 16:10
 ---------------------------------------------
 Multiple Displays
-	XP/Vista/7 support multiple displays
+	Windows supports multiple displays since WinXP
 	Many video cards support dual displays (some quad)
 		Referred to as "dual head"
-		multiple VGA/DVI ports
+		multiple VGA/DVI/DisplayPort connectors
 	You can also use multiple video cards
 		You may need to modify video settings in BIOS
 	
