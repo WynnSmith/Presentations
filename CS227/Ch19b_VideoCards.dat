@@ -43,14 +43,14 @@ Busses / Expansion Slots
 		adequate for general use
 		Bandwidth is shared for all devices on bus
 		Video often requires more bandwidth
-	AGP
+	AGP (obsolete)
 		Dedicated to Video
 		2x, 4x, 8x flavors
 		2-16 times faster then PCI
-		Not general purpose
-		Now obsolete
 	PCIe-16
 		2-8 times faster then AGP 8x
+	Integrated
+		GPU built-in to CPU
 
 ------------------------------------------
 Monitor Connections
@@ -116,9 +116,8 @@ Direct X
 	A set of programming APIs for handling multimedia tasks used in game programming
 	Almost all Windows games use DirectX and video cards support it
 	Latest version
-		DirectX 11
-		Only works with Vista/7
-	XP supported up to 9
+		DirectX 12
+	XP supported up to DirectX 9
 	To determine the version on your PC, run DxDiag from run menu
 
 ------------------------------------------
