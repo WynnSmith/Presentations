@@ -25,12 +25,14 @@ Types of Portables
 		Large Display, Full-size Keyboard, Optical Disk
 	Gaming Laptop
 		Top-end graphics, customizable keyboard, high-end CPU
+	Netbook
+		Small Screen, highly portable
 	Ultrabook
 		Battery life is 6+ hours, SSD Storage
 	Tablet PC
 		touchscreen, stylus
-	Convertible PC
-		touchscreen, keyboard swings out of the way
+	Convertible PC (2-in-1)
+		touchscreen, keyboard swings around
 	Hybrid PC
 		touchscreen, detachable keyboard
 ------------------------------------------
@@ -42,6 +44,8 @@ Input Devices
 		Touchpad is most common
 		Trackballs and trackpoints ([[pointing stick!http://en.wikipedia.org/wiki/Pointing_stick]]) have been used in the past
 		Touchscreens 
+	Webcams
+	Microphones
 	External USB mice can easily be plugged in
 
 ------------------------------------------
@@ -49,9 +53,12 @@ Typical Ports
 	Most have following ports
 		Audio Port (headphones)
 		Display port (for external monitor)
-		Ethernet
+		Ethernet and/or wifi
+		Bluetooth
 		USB
+	Smart Card Reader
 	Less common
+		flashcard (SD)
 		firewire
 		eSata
 ------------------------------------------
@@ -135,6 +142,7 @@ Repairing
 			2.5"
 			PATA or SATA
 		Battery
+		Communications
 	Other items can be replaced but may require significant teardown
 		Keyboard, Optical drive, LCD, CPU fan
 ------------------------------------------
