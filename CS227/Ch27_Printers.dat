@@ -11,7 +11,8 @@ Ch 27 - Printers
 Vocabulary
 	Subtractive Color (CMYK)
 	Dots per inch (DPI)
-	
+	Cost per page
+	Coverage
 ------------------------------------------
 Printer Types
 	Impact (Dot Matrix)
@@ -73,11 +74,11 @@ Solid Ink
 	Very expensive
 ------------------------------------------
 Thermal Printer
-	Direct thermal printer [[img http://www.slxntech.com/images/products/printers/srp350g.gif]]
+	Direct thermal printer [[img images\Thermal_Transfer_Printing.png]]
 		Uses heating element to burn dots on heat-sensitive paper
 		Commonly used to print receipts
 	Thermal Wax printer
-		Similar to Dye-sublimination but use film covered with colored wax
+		Similar to Dye-sublimination but uses film covered with colored wax
 ------------------------------------------
 Laser Printer
 	Uses electro-photographic imaging [[img http://www.computershopper.com/var/ezwebin_site/storage/images/media/images/how-it-works-laser-printer/220996-1-eng-US/how-it-works-laser-printer.jpg]]
