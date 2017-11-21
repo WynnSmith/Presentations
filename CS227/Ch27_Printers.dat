@@ -13,6 +13,15 @@ Vocabulary
 	Dots per inch (DPI)
 	Cost per page
 	Coverage
+	The terms "printer" and "network printer" don't mean the same thing to all people
+	CompTIA (A+) 
+		Printer is hardware (and software)
+		Network printer is a printer with a NIC attached directly to the network
+	Microsoft 
+		Printer is software (usually)
+		Printing Device is hardware (usually)
+		Local Printer is software installed locally to manage print jobs
+		Network Printer is a redirector that sends print jobs to another computers local printer
 ------------------------------------------
 Printer Types
 	Impact (Dot Matrix)
@@ -133,6 +142,7 @@ Printer Languages
 		PostScript 
 			Graphics and text (scalable)
 			Fast (hardware support in printer)
+		Windows RAW Image Printing API
 -------------------------------------------
 Windows Printing Systems
 	GDI 
@@ -153,17 +163,6 @@ Printer Connectivity
 	Network
 	Firewire (rare)
 -------------------------------------------
-Terminology
-	The terms "printer" and "network printer" don't mean the same thing to all people
-	CompTIA (A+) 
-		Printer is hardware (and software)
-		Network printer is a printer with a NIC attached directly to the network
-	Microsoft 
-		Printer is software (usually)
-		Printing Device is hardware (usually)
-		Local Printer is software installed locally to manage print jobs
-		Network Printer is a redirector that sends print jobs to another computers local printer
-------------------------------------------
 Troubleshooting
 	The most common laser printer problem is dirty printouts, which is caused by the printer never being cleaned
 	If toner "falls off" page, fuser has died
