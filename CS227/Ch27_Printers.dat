@@ -8,6 +8,11 @@ Ch 27 - Printers
 	Maintenance
 	Troubleshooting
 ------------------------------------------
+Vocabulary
+	Subtractive Color (CMYK)
+	Dots per inch (DPI)
+	
+------------------------------------------
 Printer Types
 	Impact (Dot Matrix)
 	Inkjet
@@ -17,7 +22,7 @@ Printer Types
 	Laser
 ------------------------------------------
 Impact
-	Create an image on paper by physcially striking an ink ribbon against the paper's surface [[img http://images.highspeedbackbone.net/skuimages/large/E17-3470-main2.jpg]]
+	Create an image on paper by physically striking an ink ribbon against the paper's surface [[img http://images.highspeedbackbone.net/skuimages/large/E17-3470-main2.jpg]]
 	Last type standing: Dot matrix
 	Didn't these things die in the 90s?
 		No!  Because they can do multipart forms!
@@ -35,17 +40,31 @@ Inkjet
 		Ink is stored in cartriges contained in the printhead, which moves back and forth across the page
 		Colors (CMYK)
 			Cyan, Magneta, Yellow, Black
+		Specialty Colors
+		 	Photo inks, White, Metalic
 	Print quality features
 		Print Resolution - density of ink (dpi)
 		Print speed (pages per minute)
+		Water-soluble vs non-water-soluble
+		Paper types - coated, plain, velum
+		Media Types - Ultra-wide, Thick, Straight-thru feed
 	Cheap to buy, expensive to operate
 ------------------------------------------
 Dye Sublimation
-	Uses heat to change solid ink to vapor and place on paper [[img http://www.togblog.biz/wp-content/uploads/2010/05/DyeSubDiagram-copy1-copy.jpg]]
-	Uses roll of heat sensitive plastic film embeded with page sized sections of each color
-	Prints very high-quality color documents or photos
-	Requires one pass for each color
-	Generally, slow and expensive to operate
+	Uses heat to change solid ink to vapor [[img images/dye-sublimation-printer.jpg]]
+	Prints to transfer sheet before final application
+	Print methods
+		roll of heat-sensitive film embedded with page sized sections of each color
+			Requires one pass for each color
+		pigment cartridges
+	Advantages
+		very high-quality color documents or photos
+		images can be applied to various shapes
+		serves very large-size format markets
+	Disadvantages
+		Generally, slow and expensive to operate
+		Can't print directly to paper
+			only to diffusable surfaces (polyesters)
 ------------------------------------------
 Solid Ink
 	Prints color
