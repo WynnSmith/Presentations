@@ -133,6 +133,7 @@ Disk Partitioning and Managment tools
 	DOS: FDISK
 	CMD: DiskPart
 	PowerShell
+	Windows 8 & 10: Storage Spaces
 --------------------------------------------
 Disk Management Tool 
 	Shows partitions/volumes on a disk
