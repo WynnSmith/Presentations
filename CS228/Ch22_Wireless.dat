@@ -126,7 +126,8 @@ Data Encryption (continued)
 	WPA2-Enterprise (802.11i)
 		Implements all mandatory elements of 802.11i
 		Utilizes AES (Advanced Encryption Standard)
-		Considered fully secure (when using AES)
+		Considered fully secure until this year
+			KRACK attack
 	WPA2-Personal 
 		Pre-Shared Key (PSK)
 		Designed for SOHO, No server required
