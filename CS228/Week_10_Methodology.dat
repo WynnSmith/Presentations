@@ -1,17 +1,18 @@
-Week 10 Troubleshooting Methodology
-	We experienced unnecessary trouble last week
-	Quit Clicking
-	Quit Keystroking
-	Quit Dismissing Dialog Boxes
-	Troubleshooting Methodology
+Network & Communication Troubleshooting
+	ITTPIVD
+	Methodological Goal Seeking
+	Practical Issues
+	DID Devices
+	Authentication Problems
 ------------------------------------------
 Troubleshooting Overview (Methodological)
-	*Identify the problem (symptom, (i.e. a goal))
-	Establish a theory of probable cause
-	Test the theory 
-	*Plan of Action (methodical plan)
-	Verify
-	Document
+	I - Identify the problem (symptom, (i.e. a goal))
+	T - Establish a theory of probable cause
+	T - Test the theory 
+	P - Plan of Action (methodical plan)
+	I - Implement
+	V - Verify
+	D - Document
 ------------------------------------------
 Methodological Goal Seeking (example PowerShell)
 	Designed for a methodical plan of action
@@ -23,6 +24,7 @@ Methodological Goal Seeking (example PowerShell)
 Practical Issues
 	Be the tech, not the novice
 	Try simple proofs first, expecting failure
+	READ THE DIALOG BOXES !!!
 	Reboot - Reestablish starting place
 	Hardware - Cold Boot vs Warm Boot
 	Configuration Files owned by System
@@ -38,6 +40,13 @@ HID Devices
 		Out-of-sequence events
 	Therefore, PREMATURE EVENTS ARE BAD
 ------------------------------------------
+Network & Communications
+	Often involves lengthy retries
+	System appears to "hang"
+	Often the tactic requires patience
+	One click or keystroke to test responsiveness
+	While waiting, make ToDo lists
+------------------------------------------
 Authentication Problem
 	Who is doing the authenticating?
 	Remote vs Server
@@ -52,4 +61,4 @@ Summary
 	Quit Clicking
 	Quit Keystroking
 	Quit Dismissing Dialog Boxes
-	PREMATURE EVENTS ARE BAD
+	Practice Patience
