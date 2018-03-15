@@ -24,7 +24,7 @@ Security Issues
 Access Control
 	Destroy Information 
 		Prevents damage via dumpster diving
-	Train Users to recognise Social Engineering
+	Train Users to recognize Social Engineering
 		Telephone Scams
 		Phishing
 	Secure Physical Access to prevent infiltration
@@ -99,7 +99,7 @@ Firewalls
 	Firewalls block traffic based on ports/services  [[img http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Firewall.png/300px-Firewall.png]] 
 	Firewalls can be on individual computers or routers
 		Use of both is recommended
-	Windows 7 configures firewall and network services based on network type
+	Windows configures firewall and network services based on network type
 		Home / Work
 		Public Location
 --------------------------------------------
