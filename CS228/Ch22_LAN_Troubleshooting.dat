@@ -2,7 +2,7 @@ Network & Communication Troubleshooting
 	ITTPIVD
 	Methodological Goal Seeking
 	Practical Issues
-	DID Devices
+	HID Devices
 	Authentication Problems
 ------------------------------------------
 Troubleshooting Overview (Methodological)
@@ -49,7 +49,7 @@ Network & Communications
 ------------------------------------------
 Authentication Problem
 	Who is doing the authenticating?
-	Remote vs Server
+	Remote vs Server vs Local
 	Login 
 		serverName\UserName
 		UserName@ServerName
