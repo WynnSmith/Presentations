@@ -13,8 +13,8 @@ Ch 23 - The Internet
 Overview
 	Internet is the global network of interconnected computers
 	Utilizes the TCP/IP protocol
-	Large companies provide high-speed backbone
-	Smaller companines provide regional service
+	Large companies provide Default-Free Zone (DFZ)
+	Smaller companies provide regional service
 	ISP (Internet Service Provider) provides customers access to the network
 
 ------------------------------------------
@@ -90,12 +90,12 @@ Cable
 
 -------------------------------------------
 Fiber
-	FTTN - Fiber to the Node (to the Neighborhood)
+	FTTN - Fiber to the Neighborhood
 	FTTP - Fiber to the Premises
 	Mbps to Gbps bandwidth
 -------------------------------------------
 Wireless
-	Cellular 3G 
+	Cellular 
 		Allows internet access via cell phone
 		3G - 2-4 Mbps  
 		4G - 4-12 Mbps  
