@@ -122,6 +122,7 @@ Synchronization
 	Android devices sync over internet
 		Only some data is synced (calender, email, etc..)
 		Device can also be treated as thumb drive and files moved with drag and drop
+	Exchange - Active Sync
 ------------------------------------------
 Security
 	Mobile devices can easily be lost or stolen (they're mobile!)
