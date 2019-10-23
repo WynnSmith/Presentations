@@ -46,7 +46,7 @@ SDRAM (SDR)
 
 -----------------------------------
 DDR
-	Double Data Rate SDRAM [[img images/DDR2.jpg]]
+	Double Data Rate SDRAM [[img images/DDR.jpg]]
 	256 - 1000 MB
 	184 pins
 	DDR266, 333, 400, 500 (clock * 2)
