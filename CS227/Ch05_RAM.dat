@@ -46,7 +46,7 @@ SDRAM (SDR)
 
 -----------------------------------
 DDR
-	Double Data Rate SDRAM [[img http://www.intel.com/support/motherboards/desktop/sb/img/ddr.jpg]]
+	Double Data Rate SDRAM [[img images/DDR2.jpg]]
 	256 - 1000 MB
 	184 pins
 	DDR266, 333, 400, 500 (clock * 2)
