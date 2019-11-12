@@ -136,8 +136,9 @@ Other devices
 		Used for security (fingerprints, retina, etc.)
 	Smart Card readers
 		Used for security
-	Bar Code readers	[[img http://www.tutorialspoint.com/computer_fundamentals/images/barcode_reader.jpg]]
-		Used to read UPCs on products
+	Bar Code & QR readers	[[img http://www.tutorialspoint.com/computer_fundamentals/images/barcode_reader.jpg]]
+		Used to read Barcodes and Quick Response codes
+		Pen, Handscan, Camera
 	Touch Screens
 		Monitors with touch (like a giant smart phone)
 		Used in info kiosks, POS systems, tablet PCs
