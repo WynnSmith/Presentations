@@ -87,7 +87,7 @@ Mice & Pointing Devices
 		Digitizing Tablet (with touch)
 ------------------------------------------
 Scanners
-	Connect via PS/2 [[img images/scanner.jpg]]
+	Connect via USB [[img images/scanner.jpg]]
 	Come with scanner software
 	Use TWAIN drivers
 	Optical resolution 
@@ -146,6 +146,7 @@ Other devices
 	Game Controllers
 	Digitizing Tablet
 		Uses pen or puck
+	RFID
 --------------------------------------------
 Summary
 	USB
