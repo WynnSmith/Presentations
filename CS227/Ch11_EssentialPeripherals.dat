@@ -27,6 +27,7 @@ USB Specs
 		1.1 - 1.5M, 12Mbps (lowspeed, fullspeed)	
 		2.0 - 480 Mbps (highspeed)			
 		3.0 - 5 Gbps (superspeed)
+		3.1 - 10 Gbps (Superspeed USB 10 Gbps or USB 3.1 Gen 2)
 		All are backwards compatible
 	Max Cable Length: 		[[img images/usb-cable.jpg]]
 		5 meters for 1.1 and 2.0  [[img images/type_c.jpg]]
@@ -38,6 +39,8 @@ USB Specs
 	Max Power provided per Port
 		500mA for 2.0
 		900mA for 3.0
+		1500mA for 3.1
+		3000mA for FastCharger (upto 20V)
 
 ------------------------------------------
 Firewire
@@ -73,7 +76,7 @@ Keyboards
 
 ------------------------------------------
 Mice & Pointing Devices
-	Connect via PS/2 or USB			[[img http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/3-Tastenmaus_Microsoft.jpg/233px-3-Tastenmaus_Microsoft.jpg]]
+	Connect via PS/2 or USB			[[img images/microsoftMouse.jpg]]
 	Configuration can be done via Mouse Control Panel Applet
 	Two types						[[img http://www.logitech.com/assets/32954/3/logitech-wireless-trackball-m570.png]]
 		Ball (obsolete, collects dirt)
