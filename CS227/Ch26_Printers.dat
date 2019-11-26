@@ -85,21 +85,21 @@ Solid Ink
 	Very expensive
 ------------------------------------------
 Thermal Printer
-	Direct thermal printer [[img images\Thermal_Transfer_Printing.png]]
+	Direct thermal printer [[img images/Thermal_Transfer_Printing.png]]
 		Uses heating element to burn dots on heat-sensitive paper
 		Commonly used to print receipts
 	Thermal Wax printer
 		Similar to Dye-sublimination but uses film covered with colored wax
 ------------------------------------------
 Laser Printer
-	Uses electro-photographic imaging [[img http://www.computershopper.com/var/ezwebin_site/storage/images/media/images/how-it-works-laser-printer/220996-1-eng-US/how-it-works-laser-printer.jpg]]
+	Uses electro-photographic imaging [[img images/Hp_laserjet_4200dtns.jpg]]
 		Toner (fine powder) is positioned and melted onto paper
 	Both Black and Color versions available
 	Somewhat expensive to purchase, but inexpensive to operate
 	Most common type of printer for general printing in business
 ------------------------------------------
 Laser Printer Parts
-	Toner Cartridge [[img http://www.certiguide.com/aplush/diagrams/figure86.png]]
+	Toner Cartridge [[img images/laser-printer-internals.jpg]]
 		Toner
 		Photosensitive drum
 		Primary corona 
