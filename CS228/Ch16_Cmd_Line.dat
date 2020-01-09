@@ -12,6 +12,7 @@ Ch 16 - Windows Command Line
 	Additional Commands
 ------------------------------------------
 Why a command line?
+	It was the original UI
 	It's faster for many operations
 	It provides features the GUI doesn't
 	Repeatable & Automatable via Scripts
@@ -40,19 +41,19 @@ Windows Command Shells
 		Object Pipeline vs Text Pipeline
 		Includes scripting language similar to C++ with full Framework
 		Installable in XP/Vista.  Included in Win7/8/10
-	BASH
+	BASH - WSL
 		Introduced with the Anniversary update of Windows 10
 		Not a VM of Linux, nor a simulation
 		Provides an alternative command shell to Windows
 		Capable of running Linux utilities
-		Must be enabled
+		Windows Subsystem for Linux must be enabled
 ------------------------------------------
 Filename rules
 	Filenames are typically composed of letters, numbers, and spaces, but may contain many other characters.
 	Disallowed characters: 	
 		[[code]]
 		* " / \ [ ] : ; ! =
-	These charactes have special meaning to the shell
+	These characters have special meaning to the shell
 	Use quotes to surround filenames that include a space
 	Common references in command shells:
 		[[code]]
@@ -136,6 +137,13 @@ PowerShell Basics
 		New-PSDrive X FileSystem \\ServerName\Share
 		(equivalent to CMD's 'Net Use W \\ServerName\Share')
 	Cmdlets come from modules provided by each part of Windows or Server
+-------------------------------------------
+Filepath
+	For all OSs, Absolute and Relative addressing is critical to understand
+	Absolute
+		begins with \
+	Relative
+		begins with ., .., or folder name
 -------------------------------------------
 Wildcards
 	Wildcards can be used in file and folder names
