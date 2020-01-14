@@ -116,10 +116,10 @@ File Systems
 		Supported by all Microsoft OSs since DOS
 		Utilizes a File Allocation Table
 		Versions: FAT, FAT16, FAT32, & exFAT
-		FAT32 supports partitions up to 2 TB
-			but Windows can only format FAT partitions up to 32GB
-			Supports File Sizes up to 4GB
-	NTFS
+		FAT32 supports partitions to 2TB, File Sizes to 4GB
+			Windows can only format FAT partitions up to 32GB
+			Use MS-DOS, DR-DOS, Win95-98, or 3rd Party for 2TB partitions
+	NTFS (WinXP introduced v5.1)
 		Introduced with NT, and supported by all versions of NT (NT/2K/XP/Vista/7/10)
 		Very similar to UFS (Unix File System)
 		Utilizes Master File table
