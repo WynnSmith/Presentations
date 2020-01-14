@@ -76,6 +76,7 @@ GPT Disks
 		Eliminates LBA->CHS trickery
 	Utilizes GPT Header in place of MBR sector
 		Has a copy of this header at the beginning and ending of the disk for redundancy.
+	GPT is only bootable on EUFI systems
 --------------------------------------------
 Dynamic Disks
 	Proprietary Microsoft technology introduced with Windows 2K and supported only by Microsoft OSs
