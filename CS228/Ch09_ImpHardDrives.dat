@@ -38,6 +38,12 @@ Partitioning Basics
 		To provide separate partions for Software and Data
 
 ------------------------------------------
+Basic Steps
+	1. Install Drive or Drives
+	2. Configure RAID if necessary
+	3. Partition - to create usable drive space
+	4. Format - to install files system / usable space
+------------------------------------------
 MBR Disks
 	First Sector of drive (Master Boot Record) contains
 		MBR Program
