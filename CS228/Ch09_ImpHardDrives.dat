@@ -41,8 +41,9 @@ Partitioning Basics
 Basic Steps
 	1. Install Drive or Drives
 	2. Configure RAID if necessary
-	3. Partition - to create usable drive space
-	4. Format - to install files system / usable space
+	3. Select MBR or GPT 
+	4. Partition - to create usable drive space
+	5. Format - to install files system / usable space
 ------------------------------------------
 MBR Disks
 	First Sector of drive (Master Boot Record) contains
@@ -90,10 +91,9 @@ Dynamic Disk Volume Types
 		Simple - similar to an old primary partition
 		Spanned - allows volume to span multiple disks (32)
 		Striped (RAID 0)
-	Redundant - Supported only by Windows Server OSs since 2K
+	Redundant - 
 		Mirrored (RAID 1)
-			Also supported in Windows 7 Pro or better!
-		RAID 5
+		RAID 5 - Supported only by Windows Server OSs
 --------------------------------------------
 Other Partition Types
 	Hidden partition - A partition that is hidden from the OS
