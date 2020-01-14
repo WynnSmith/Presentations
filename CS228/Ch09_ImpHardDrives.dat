@@ -103,14 +103,15 @@ Other Partition Types
 --------------------------------------------
 File System Basics
 	Partitions/Volumes need file systems to manage the disk space
-	Disk drives manage the space at the sector level, but a sector (512 bytes) is so small there's too many of them for the OS to manage effeciently.
-	File systems break the disk space into manageable chunks called clusters
+	Disk drives manage space at the sector level (512B to 4KB) 
+	Flash Drives are managed at the page level (4KB)
+	File systems break the disk space into manageable chunks called clusters or blocks
 	File Systems keep track of what clusters are used by what files
 	A file takes up at least 1 cluster.
 	Large clusters result in lots of wasted space
 		If clusters are 32K, a 1 byte file takes up 32K of disk space
 -------------------------------------------
-Windows File Systems
+File Systems
 	FAT
 		Supported by all Microsoft OSs since DOS
 		Utilizes a File Allocation Table
@@ -126,6 +127,16 @@ Windows File Systems
 			2 TB on basic disks
 			16 TB on dynamic disks
 -------------------------------------------
+File Systems (continued)
+	Apple
+		APFS
+		HFS+
+	Linux
+		ext4
+		BTRFS
+		XFS
+		ZFS
+-------------------------------------------
 NTFS Features
 	More efficient use of space (smaller clusters)
 	Excellent Security (using ACLs)
@@ -134,13 +145,14 @@ NTFS Features
 	Disk Quotas
 --------------------------------------------
 Disk Partitioning and Managment tools
-	3rd party Tools (partition magic)
+	3rd party Tools (PartitionMagic, GParted)
 	Windows install process
 	Disk Managment Tool: diskmgmt.msc
-	DOS: FDISK
+	MS-DOS: FDISK
 	CMD: DiskPart
 	PowerShell
 	Windows 8 & 10: Storage Spaces
+	Linux: FDISK
 --------------------------------------------
 Disk Management Tool 
 	Shows partitions/volumes on a disk
