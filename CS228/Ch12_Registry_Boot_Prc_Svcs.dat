@@ -11,8 +11,8 @@ Registry
 	Database of System Information
 		Device Drivers
 		Services
-		Installed Applications
-		OS Components
+		Application Settings
+		OS Components & Settings
 		User Preferences
 	Stored in files called hives
 	Hives 
