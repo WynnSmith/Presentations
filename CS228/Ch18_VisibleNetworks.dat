@@ -19,6 +19,7 @@ Terms
 	Network Segment / Subnet (broadcast domain)
 	LAN - networked computers, close to each other
 		Same broadcast area
+	Duplex - Both directions, simultaneously or not
 	Protocols
 ------------------------------------------
 Topology
