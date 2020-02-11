@@ -80,10 +80,10 @@ Connectors  (Terminations)
 		Mostly used for telephone (early 10Base-T) 
 	RJ-14 - Three pairs of wires (6P6C)
 		Telephone wall jack
-	RJ-45 - Four pairs of wires  
-		Used for network communication  
-		10 & 100Mbps use two pair of four (1/2 & 3/6)  [[img images/t568a-b.gif]]
-		1000Mbps+ uses all four pairs
+	RJ-45 - Used for network communication    
+		10 & 100Mbps use two pair of four (8P4C)   [[img images/t568a-b.gif]]
+			(pair 1/2 & pair 3/6)
+		1000Mbps+ uses all four pairs (8P8C)
 		MATCH THE CONNECTOR TO THE CABLE STANDARD!!!
 -------------------------------------------
 Structured Cabling
