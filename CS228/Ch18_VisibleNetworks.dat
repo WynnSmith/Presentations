@@ -76,9 +76,9 @@ Cable (continued)
 		LC (dual, uses two cables)
 -------------------------------------------
 Connectors  (Terminations)
-	RJ-11 - Two pairs of wires
+	RJ-11 - Two pairs of wires (2P2C, 4P2C, 6P2C)
 		Mostly used for telephone (early 10Base-T) 
-	RJ-12 - Three pairs of wires (also called RJ-11, RJ-14)
+	RJ-14 - Three pairs of wires (6P6C)
 		Telephone wall jack
 	RJ-45 - Four pairs of wires  
 		Used for network communication  
