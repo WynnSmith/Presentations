@@ -56,13 +56,15 @@ Cable
 		Shielded against EMI (lighting, motors, machinery)
 	Ethernet over Power - via AC Outlets
 -------------------------------------------
-Cable (continued)
-	Coax (old)
+Cable (Coax)
+	Coax
 		10Base5 - Thick (RG-8, 50 ohm, Tap Connector)
 		10Base2 - Thin (RG-58, 50 ohm, BNC T-Connectors) [[img images/Coax_T-Connector.jpg]]
 		Cable TV / Internet  [[img images/Coax_Cable_F-Type.jpg]]
 			RG-6 - Thick (75 ohm, Type-F connector)
 			RG-59 - Thin (75 ohm, Type-F connector)
+-------------------------------------------
+Cable (Fiber)
 	Fiber Optic
 		Uses light (immune to EMI)
 		Half-duplex
