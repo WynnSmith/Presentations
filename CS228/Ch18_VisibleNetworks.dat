@@ -38,7 +38,7 @@ Early Networks
 		ARCNet
 		AppleTalk/LocalTalk
 	Ethernet became the dominate technology, and is now ubiquitous
-	Early etherenet used coax in a bus topology
+	Early ethernet used coax in a bus topology
 
 ------------------------------------------
 Cable
@@ -122,6 +122,7 @@ LANs and WANs
 		Spans a large area
 		LANs are connected to a WAN using a router
 			Router has both a LAN address and WAN address
+		"Sending your packets over a network owned by others"
 -------------------------------------------------
 Components
 	Hub (old) - Bus, Electrically Connected, dumb
