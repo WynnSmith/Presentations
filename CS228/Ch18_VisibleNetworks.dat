@@ -57,10 +57,12 @@ Cable
 	Ethernet over Power - via AC Outlets
 -------------------------------------------
 Cable (continued)
-	Coax (old, 75 ohm)
-		10Base5 (Tap, RG-6, thick)
-		10Base2 (BNC T-Connectors, RG-58, thin) [[img images/Coax_T-Connector.jpg]]
-		Cable TV / Internet (thick) [[img images/Coax_Cable_F-Type.jpg]]
+	Coax (old)
+		10Base5 - Thick (RG-8, 50 ohm, Tap Connector)
+		10Base2 - Thin (RG-58, 50 ohm, BNC T-Connectors) [[img images/Coax_T-Connector.jpg]]
+		Cable TV / Internet  [[img images/Coax_Cable_F-Type.jpg]]
+			RG-6 - Thick (75 ohm, Type-F connector)
+			RG-59 - Thin (75 ohm, Type-F connector)
 	Fiber Optic
 		Uses light (immune to EMI)
 		Half-duplex
