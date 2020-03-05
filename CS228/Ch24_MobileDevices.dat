@@ -20,7 +20,7 @@ Overview
 			Smart Watches
 			Fitness
 			Glasses
-			Headsets
+			VR Headsets
 	Operating Systems
 		iOS (all Apple products)
 		Android (almost all non-apple products)
@@ -44,7 +44,7 @@ Screen Technology
 			Responded to pressure; stylus was required
 ------------------------------------------
 User Interface
-	Touch interface 
+	Touch interface (Digitizer)
 		tap (or doubletap)
 		swipe
 		Multitouch interface gesture
@@ -56,6 +56,11 @@ User Interface
 	On-screen keyboards 
 	Bluetooth for Physical Keyboards and devices
 	Voice Assistant - Siri, OK Google, Cortana
+------------------------------------------
+Mobile Operating Systems
+	Open Source vs Proprietary
+	Google Android
+	Apple iOS
 ------------------------------------------
 Applications
 	Applications are called "Apps"
@@ -126,6 +131,8 @@ Synchronization
 	Exchange - Active Sync
 ------------------------------------------
 Security
+	Privacy
+	Location Tracking
 	Mobile devices can easily be lost or stolen (they're mobile!)
 	All can be protected with passcode (password) lock screen
 	Mobile Devices can be remotely located and/or remotely wiped 
