@@ -11,6 +11,9 @@ Ch 6 - BIOS and CMOS
 Golden Rule for BIOS
 	If it ain't broke...
 	...don't fix it
+	Reasons to Update:
+		To prepare for a clean install of OS
+		To fix a known issue
 -----------------------------------
 Components on Motherboard
 	Chipset		[[img images/x99-chipset-block-diagram.jpg]]
