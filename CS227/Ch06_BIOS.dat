@@ -28,7 +28,7 @@ Hardware/Software /Firmware
 	Software - 
 		Instructions for processor
 		Typically stored in volatile memory
-		Usually high-level, farily large 
+		Usually high-level, fairly large 
 	Firmware
 		Very low-level code
 		Simple programs stored in less-volatile media
