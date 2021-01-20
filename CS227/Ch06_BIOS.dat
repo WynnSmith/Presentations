@@ -8,6 +8,10 @@ Ch 6 - BIOS and CMOS
 	BIOS/CMOS Setup screens
 	Misc
 -----------------------------------
+Golden Rule for BIOS
+	If it ain't broke...
+	...don't fix it
+-----------------------------------
 Components on Motherboard
 	Chipset		[[img images/x99-chipset-block-diagram.jpg]]
 		Northbridge/Southbridge
