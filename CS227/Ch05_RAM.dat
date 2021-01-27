@@ -110,6 +110,7 @@ RIMMs
 Misc
 	ECC vs non-ECC
 	Registered (Buffered) vs Unbuffered
+	kiB vs kB - 1024 vs 1000
 
 ----------------------------------------
 Summary 
